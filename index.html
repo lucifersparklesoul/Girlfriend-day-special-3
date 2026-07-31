@@ -1,4 +1,5 @@
 <!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,4 +11,2725 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💕 Happy Girlfriend Day 💕</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --rose-50: #fff1f2;
+      --rose-100: #ffe4e6;
+      --rose-200: #fecdd3;
+      --rose-300: #fda4af;
+      --rose-400: #fb7185;
+      --rose-500: #f43f5e;
+      --rose-600: #e11d48;
+      --rose-700: #be123c;
+      --rose-800: #9f1239;
+      --rose-900: #881337;
+      --pink-50: #fdf2f8;
+      --pink-100: #fce7f3;
+      --pink-200: #fbcfe8;
+      --pink-300: #f9a8d4;
+      --pink-400: #f472b6;
+      --pink-500: #ec4899;
+      --pink-600: #db2777;
+      --pink-700: #be185d;
+      --pink-800: #9d174d;
+      --pink-900: #831843;
+      --purple-400: #c084fc;
+      --purple-500: #a855f7;
+      --purple-600: #9333ea;
+      --purple-700: #7e22ce;
+      --amber-300: #fcd34d;
+      --amber-400: #fbbf24;
+      --amber-500: #f59e0b;
+      --red-400: #f87171;
+      --red-500: #ef4444;
+      --red-600: #dc2626;
+      --gray-50: #f9fafb;
+      --gray-100: #f3f4f6;
+      --gray-200: #e5e7eb;
+      --gray-300: #d1d5db;
+      --gray-400: #9ca3af;
+      --gray-500: #6b7280;
+      --gray-600: #4b5563;
+      --gray-700: #374151;
+      --gray-800: #1f2937;
+      --gray-900: #111827;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      overflow-x: hidden;
+      background: var(--rose-50);
+    }
+
+    .font-dancing {
+      font-family: 'Dancing Script', cursive;
+    }
+
+    .font-playfair {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .font-poppins {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    @keyframes floatHeart {
+      0% {
+        transform: translateY(100vh) rotate(0deg) scale(0);
+        opacity: 0;
+      }
+      10% {
+        opacity: 1;
+        transform: translateY(90vh) rotate(15deg) scale(1);
+      }
+      90% {
+        opacity: 0.8;
+      }
+      100% {
+        transform: translateY(-10vh) rotate(360deg) scale(0.5);
+        opacity: 0;
+      }
+    }
+
+    .floating-heart {
+      animation: floatHeart linear infinite;
+      position: fixed;
+      pointer-events: none;
+      z-index: 50;
+    }
+
+    @keyframes sparkle {
+      0%, 100% {
+        transform: scale(0) rotate(0deg);
+        opacity: 0;
+      }
+      50% {
+        transform: scale(1) rotate(180deg);
+        opacity: 1;
+      }
+    }
+
+    .sparkle {
+      animation: sparkle 2s ease-in-out infinite;
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% {
+        box-shadow: 0 0 20px rgba(244, 63, 94, 0.3), 0 0 40px rgba(244, 63, 94, 0.1);
+      }
+      50% {
+        box-shadow: 0 0 40px rgba(244, 63, 94, 0.6), 0 0 80px rgba(244, 63, 94, 0.3);
+      }
+    }
+
+    .pulse-glow {
+      animation: pulseGlow 3s ease-in-out infinite;
+    }
+
+    @keyframes shimmer {
+      0% {
+        background-position: -200% center;
+      }
+      100% {
+        background-position: 200% center;
+      }
+    }
+
+    .text-shimmer {
+      background: linear-gradient(90deg, #f43f5e 0%, #ec4899 25%, #f43f5e 50%, #ec4899 75%, #f43f5e 100%);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shimmer 4s linear infinite;
+    }
+
+    @keyframes heartbeat {
+      0%, 100% { transform: scale(1); }
+      14% { transform: scale(1.3); }
+      28% { transform: scale(1); }
+      42% { transform: scale(1.3); }
+      70% { transform: scale(1); }
+    }
+
+    .heartbeat {
+      animation: heartbeat 1.5s ease-in-out infinite;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .gradient-animate {
+      background-size: 200% 200%;
+      animation: gradientShift 6s ease infinite;
+    }
+
+    @keyframes typewriter {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+
+    @keyframes slowRotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .slow-rotate {
+      animation: slowRotate 20s linear infinite;
+    }
+
+    .love-card {
+      transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .love-card:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 25px 50px rgba(244, 63, 94, 0.25);
+    }
+
+    @keyframes fadeSlideIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .page-enter {
+      animation: fadeSlideIn 0.8s ease forwards;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .bounce-arrow {
+      animation: bounce 2s ease-in-out infinite;
+    }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.3; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.2); }
+    }
+
+    .twinkle {
+      animation: twinkle 2s ease-in-out infinite;
+    }
+
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--pink-50);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #f43f5e, #ec4899);
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(180deg, #e11d48, #db2777);
+    }
+
+    /* Navigation */
+    .nav-link {
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .nav-link.active {
+      color: white;
+    }
+
+    .nav-link::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, var(--rose-500), var(--pink-500));
+      border-radius: 9999px;
+      transform: scale: 0;
+      transition: transform 0.3s ease;
+      z-index: -1;
+    }
+
+    .nav-link.active::before {
+      transform: scale(1);
+    }
+
+    /* Utility Classes */
+    .min-h-screen { min-height: 100vh; }
+    .h-screen { height: 100vh; }
+    .w-full { width: 100%; }
+    .max-w-sm { max-width: 24rem; }
+    .max-w-md { max-width: 28rem; }
+    .max-w-lg { max-width: 32rem; }
+    .max-w-xl { max-width: 36rem; }
+    .max-w-2xl { max-width: 42rem; }
+    .max-w-3xl { max-width: 48rem; }
+    .max-w-4xl { max-width: 56rem; }
+    .max-w-5xl { max-width: 64rem; }
+    .max-w-6xl { max-width: 72rem; }
+    .max-w-7xl { max-width: 80rem; }
+    .max-w-full { max-width: 100%; }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+    .px-4 { padding-left: 1rem; padding-right: 1rem; }
+    .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+    .px-8 { padding-left: 2rem; padding-right: 2rem; }
+    .py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+    .py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+    .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+    .py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+    .py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+    .py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+    .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+    .py-20 { padding-top: 5rem; padding-bottom: 5rem; }
+    .py-24 { padding-top: 6rem; padding-bottom: 6rem; }
+    .pt-20 { padding-top: 5rem; }
+    .pt-24 { padding-top: 6rem; }
+    .pb-8 { padding-bottom: 2rem; }
+    .mb-1 { margin-bottom: 0.25rem; }
+    .mb-2 { margin-bottom: 0.5rem; }
+    .mb-3 { margin-bottom: 0.75rem; }
+    .mb-4 { margin-bottom: 1rem; }
+    .mb-5 { margin-bottom: 1.25rem; }
+    .mb-6 { margin-bottom: 1.5rem; }
+    .mb-8 { margin-bottom: 2rem; }
+    .mb-12 { margin-bottom: 3rem; }
+    .mb-16 { margin-bottom: 4rem; }
+    .mt-2 { margin-top: 0.5rem; }
+    .mt-3 { margin-top: 0.75rem; }
+    .mt-4 { margin-top: 1rem; }
+    .mt-6 { margin-top: 1.5rem; }
+    .mt-8 { margin-top: 2rem; }
+    .mt-10 { margin-top: 2.5rem; }
+    .mt-12 { margin-top: 3rem; }
+    .mt-16 { margin-top: 4rem; }
+    .mt-20 { margin-top: 5rem; }
+    .mr-2 { margin-right: 0.5rem; }
+    .ml-2 { margin-left: 0.5rem; }
+    .ml-auto { margin-left: auto; }
+    .gap-1 { gap: 0.25rem; }
+    .gap-2 { gap: 0.5rem; }
+    .gap-3 { gap: 0.75rem; }
+    .gap-4 { gap: 1rem; }
+    .gap-5 { gap: 1.25rem; }
+    .gap-6 { gap: 1.5rem; }
+    .gap-8 { gap: 2rem; }
+    .space-y-1 > * + * { margin-top: 0.25rem; }
+    .space-y-6 > * + * { margin-top: 1.5rem; }
+    .space-y-4 > * + * { margin-top: 1rem; }
+    .space-y-5 > * + * { margin-top: 1.25rem; }
+    .space-y-3 > * + * { margin-top: 0.75rem; }
+    .space-y-2 > * + * { margin-top: 0.5rem; }
+    .space-y-8 > * + * { margin-top: 2rem; }
+    .space-y-3 > * + * { margin-top: 0.75rem; }
+    .p-4 { padding: 1rem; }
+    .p-5 { padding: 1.25rem; }
+    .p-6 { padding: 1.5rem; }
+    .p-8 { padding: 2rem; }
+    .p-12 { padding: 3rem; }
+    .p-16 { padding: 4rem; }
+    .p-24 { padding: 6rem; }
+    .p-3 { padding: 0.75rem; }
+    .p-2 { padding: 0.5rem; }
+    .p-1 { padding: 0.25rem; }
+    .p-14 { padding: 3.5rem; }
+    .text-center { text-align: center; }
+    .text-left { text-align: left; }
+    .text-right { text-align: right; }
+    .flex { display: flex; }
+    .inline-flex { display: inline-flex; }
+    .grid { display: grid; }
+    .hidden { display: none; }
+    .block { display: block; }
+    .inline-block { display: inline-block; }
+    .contents { display: contents; }
+    .flex-col { flex-direction: column; }
+    .flex-wrap { flex-wrap: wrap; }
+    .items-center { align-items: center; }
+    .items-start { align-items: flex-start; }
+    .items-end { align-items: flex-end; }
+    .justify-center { justify-content: center; }
+    .justify-between { justify-content: space-between; }
+    .justify-start { justify-content: flex-start; }
+    .justify-end { justify-content: flex-end; }
+    .flex-1 { flex: 1 1 0%; }
+    .flex-shrink-0 { flex-shrink: 0; }
+    .flex-grow { flex-grow: 1; }
+    .flex-auto { flex: 1 1 auto; }
+    .grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+    .grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .col-span-2 { grid-column: span 2 / span 2; }
+    .col-span-3 { grid-column: span 3 / span 3; }
+    .row-span-2 { grid-row: span 2 / span 2; }
+    .w-1 { width: 0.25rem; }
+    .w-2 { width: 0.5rem; }
+    .w-3 { width: 0.75rem; }
+    .w-4 { width: 1rem; }
+    .w-5 { width: 1.25rem; }
+    .w-6 { width: 1.5rem; }
+    .w-8 { width: 2rem; }
+    .w-10 { width: 2.5rem; }
+    .w-12 { width: 3rem; }
+    .w-16 { width: 4rem; }
+    .w-20 { width: 5rem; }
+    .w-24 { width: 6rem; }
+    .w-32 { width: 8rem; }
+    .w-48 { width: 12rem; }
+    .w-64 { width: 16rem; }
+    .w-72 { width: 18rem; }
+    .w-96 { width: 24rem; }
+    .w-1\/2 { width: 50%; }
+    .w-1\/3 { width: 33.333333%; }
+    .w-2\/3 { width: 66.666667%; }
+    .w-1\/4 { width: 25%; }
+    .w-3\/4 { width: 75%; }
+    .w-auto { width: auto; }
+    .h-1 { height: 0.25rem; }
+    .h-2 { height: 0.5rem; }
+    .h-3 { height: 0.75rem; }
+    .h-4 { height: 1rem; }
+    .h-5 { height: 1.25rem; }
+    .h-6 { height: 1.5rem; }
+    .h-8 { height: 2rem; }
+    .h-10 { height: 2.5rem; }
+    .h-12 { height: 3rem; }
+    .h-16 { height: 4rem; }
+    .h-20 { height: 5rem; }
+    .h-24 { height: 6rem; }
+    .h-32 { height: 8rem; }
+    .h-48 { height: 12rem; }
+    .h-56 { height: 14rem; }
+    .h-64 { height: 16rem; }
+    .h-72 { height: 18rem; }
+    .h-80 { height: 20rem; }
+    .h-96 { height: 24rem; }
+    .h-auto { height: auto; }
+    .h-full { height: 100%; }
+    .h-screen { height: 100vh; }
+    .h-1\/2 { height: 50%; }
+    .h-3\/4 { height: 75%; }
+    .h-1\/3 { height: 33.333333%; }
+    .h-2\/3 { height: 66.666667%; }
+    .h-1\/4 { height: 25%; }
+    .h-8 { height: 2rem; }
+    .max-h-\[90vh\] { max-height: 90vh; }
+    .max-h-\[280px\] { max-height: 280px; }
+    .min-h-\[72px\] { min-height: 72px; }
+    .max-w-\[280px\] { max-width: 280px; }
+    .w-\[110\%\] { width: 110%; }
+    .w-\[500px\] { width: 500px; }
+    .w-\[600px\] { width: 600px; }
+    .max-h-\[800px\] { max-height: 800px; }
+    .aspect-square { aspect-ratio: 1 / 1; }
+    .rounded { border-radius: 0.25rem; }
+    .rounded-sm { border-radius: 0.125rem; }
+    .rounded-lg { border-radius: 0.5rem; }
+    .rounded-xl { border-radius: 0.75rem; }
+    .rounded-2xl { border-radius: 1rem; }
+    .rounded-3xl { border-radius: 1.5rem; }
+    .rounded-full { border-radius: 9999px; }
+    .rounded-t-2xl { border-top-left-radius: 1rem; border-top-right-radius: 1rem; }
+    .rounded-b-2xl { border-bottom-left-radius: 1rem; border-bottom-right-radius: 1rem; }
+    .rounded-t-xl { border-top-left-radius: 0.75rem; border-top-right-radius: 0.75rem; }
+    .rounded-l-full { border-top-left-radius: 9999px; border-bottom-left-radius: 9999px; }
+    .rounded-r-full { border-top-right-radius: 9999px; border-bottom-right-radius: 9999px; }
+    .border { border-width: 1px; }
+    .border-2 { border-width: 2px; }
+    .border-4 { border-width: 4px; }
+    .border-8 { border-width: 8px; }
+    .border-t { border-top-width: 1px; }
+    .border-b { border-bottom-width: 1px; }
+    .border-l { border-left-width: 1px; }
+    .border-r { border-right-width: 1px; }
+    .border-dashed { border-style: dashed; }
+    .border-none { border: none; }
+    .border-transparent { border-color: transparent; }
+    .border-white { border-color: white; }
+    .border-rose-100 { border-color: var(--rose-100); }
+    .border-rose-200 { border-color: var(--rose-200); }
+    .border-rose-300 { border-color: var(--rose-300); }
+    .border-rose-400 { border-color: var(--rose-400); }
+    .border-rose-500 { border-color: var(--rose-500); }
+    .border-pink-200 { border-color: var(--pink-200); }
+    .border-pink-300 { border-color: var(--pink-300); }
+    .border-white\/10 { border-color: rgba(255, 255, 255, 0.1); }
+    .border-white\/90 { border-color: rgba(255, 255, 255, 0.9); }
+    .border-rose-500\/30 { border-color: rgba(244, 63, 94, 0.3); }
+    .border-rose-500\/50 { border-color: rgba(244, 63, 94, 0.5); }
+    .border-rose-100\/50 { border-color: rgba(255, 228, 230, 0.5); }
+    .border-rose-100\/30 { border-color: rgba(255, 228, 230, 0.3); }
+    .border-rose-200\/50 { border-color: rgba(254, 205, 211, 0.5); }
+    .border-rose-100\/40 { border-color: rgba(255, 228, 230, 0.4); }
+    .border-rose-100\/80 { border-color: rgba(255, 228, 230, 0.8); }
+    .border-gray-200 { border-color: var(--gray-200); }
+    .border-emerald-400 { border-color: #34d399; }
+    .bg-transparent { background-color: transparent; }
+    .bg-white { background-color: white; }
+    .bg-black { background-color: black; }
+    .bg-rose-50 { background-color: var(--rose-50); }
+    .bg-rose-100 { background-color: var(--rose-100); }
+    .bg-rose-200 { background-color: var(--rose-200); }
+    .bg-rose-300 { background-color: var(--rose-300); }
+    .bg-rose-400 { background-color: var(--rose-400); }
+    .bg-rose-500 { background-color: var(--rose-500); }
+    .bg-rose-600 { background-color: var(--rose-600); }
+    .bg-rose-700 { background-color: var(--rose-700); }
+    .bg-rose-800 { background-color: var(--rose-800); }
+    .bg-rose-900 { background-color: var(--rose-900); }
+    .bg-pink-50 { background-color: var(--pink-50); }
+    .bg-pink-100 { background-color: var(--pink-100); }
+    .bg-pink-200 { background-color: var(--pink-200); }
+    .bg-pink-300 { background-color: var(--pink-300); }
+    .bg-pink-400 { background-color: var(--pink-400); }
+    .bg-pink-500 { background-color: var(--pink-500); }
+    .bg-purple-400 { background-color: var(--purple-400); }
+    .bg-purple-500 { background-color: var(--purple-500); }
+    .bg-purple-600 { background-color: var(--purple-600); }
+    .bg-amber-300 { background-color: var(--amber-300); }
+    .bg-amber-400 { background-color: var(--amber-400); }
+    .bg-amber-500 { background-color: var(--amber-500); }
+    .bg-gray-50 { background-color: var(--gray-50); }
+    .bg-gray-100 { background-color: var(--gray-100); }
+    .bg-gray-200 { background-color: var(--gray-200); }
+    .bg-gray-300 { background-color: var(--gray-300); }
+    .bg-gray-400 { background-color: var(--gray-400); }
+    .bg-gray-500 { background-color: var(--gray-500); }
+    .bg-gray-600 { background-color: var(--gray-600); }
+    .bg-gray-700 { background-color: var(--gray-700); }
+    .bg-gray-800 { background-color: var(--gray-800); }
+    .bg-gray-900 { background-color: var(--gray-900); }
+    .bg-red-400 { background-color: var(--red-400); }
+    .bg-red-500 { background-color: var(--red-500); }
+    .bg-teal-400 { background-color: #2dd4bf; }
+    .bg-emerald-400 { background-color: #34d399; }
+    .bg-emerald-500 { background-color: #10b981; }
+    .bg-rose-950 { background-color: #4c0519; }
+    .bg-amber-50 { background-color: #fffbeb; }
+    .bg-violet-400 { background-color: #a78bfa; }
+    .bg-red-400\/30 { background-color: rgba(248, 113, 113, 0.3); }
+    .bg-rose-400\/30 { background-color: rgba(244, 63, 94, 0.3); }
+    .bg-rose-400\/10 { background-color: rgba(244, 63, 94, 0.1); }
+    .bg-rose-400\/20 { background-color: rgba(244, 63, 94, 0.2); }
+    .bg-rose-400\/40 { background-color: rgba(244, 63, 94, 0.4); }
+    .bg-rose-400\/50 { background-color: rgba(244, 63, 94, 0.5); }
+    .bg-rose-400\/60 { background-color: rgba(244, 63, 94, 0.6); }
+    .bg-rose-400\/70 { background-color: rgba(244, 63, 94, 0.7); }
+    .bg-rose-400\/80 { background-color: rgba(244, 63, 94, 0.8); }
+    .bg-rose-400\/90 { background-color: rgba(244, 63, 94, 0.9); }
+    .bg-rose-500\/10 { background-color: rgba(244, 63, 94, 0.1); }
+    .bg-rose-500\/20 { background-color: rgba(244, 63, 94, 0.2); }
+    .bg-rose-500\/30 { background-color: rgba(244, 63, 94, 0.3); }
+    .bg-rose-500\/40 { background-color: rgba(244, 63, 94, 0.4); }
+    .bg-rose-500\/50 { background-color: rgba(244, 63, 94, 0.5); }
+    .bg-rose-500\/60 { background-color: rgba(244, 63, 94, 0.6); }
+    .bg-rose-500\/70 { background-color: rgba(244, 63, 94, 0.7); }
+    .bg-rose-500\/80 { background-color: rgba(244, 63, 94, 0.8); }
+    .bg-rose-500\/90 { background-color: rgba(244, 63, 94, 0.9); }
+    .bg-pink-50\/90 { background-color: rgba(253, 242, 248, 0.9); }
+    .bg-pink-400\/20 { background-color: rgba(244, 114, 182, 0.2); }
+    .bg-pink-500\/20 { background-color: rgba(236, 72, 153, 0.2); }
+    .bg-purple-400\/10 { background-color: rgba(192, 132, 252, 0.1); }
+    .bg-purple-500\/10 { background-color: rgba(168, 85, 247, 0.1); }
+    .bg-purple-500\/20 { background-color: rgba(168, 85, 247, 0.2); }
+    .bg-white\/5 { background-color: rgba(255, 255, 255, 0.05); }
+    .bg-white\/10 { background-color: rgba(255, 255, 255, 0.1); }
+    .bg-white\/20 { background-color: rgba(255, 255, 255, 0.2); }
+    .bg-white\/90 { background-color: rgba(255, 255, 255, 0.9); }
+    .bg-white\/80 { background-color: rgba(255, 255, 255, 0.8); }
+    .bg-white\/95 { background-color: rgba(255, 255, 255, 0.95); }
+    .bg-black\/50 { background-color: rgba(0, 0, 0, 0.5); }
+    .bg-black\/60 { background-color: rgba(0, 0, 0, 0.6); }
+    .bg-black\/70 { background-color: rgba(0, 0, 0, 0.7); }
+    .bg-black\/40 { background-color: rgba(0, 0, 0, 0.4); }
+    .bg-amber-200\/15 { background-color: rgba(253, 211, 77, 0.15); }
+    .bg-rose-200\/20 { background-color: rgba(254, 205, 211, 0.2); }
+    .bg-rose-200\/30 { background-color: rgba(254, 205, 211, 0.3); }
+    .bg-pink-200\/20 { background-color: rgba(251, 207, 232, 0.2); }
+    .bg-purple-200\/20 { background-color: rgba(233, 213, 255, 0.2); }
+    .bg-rose-300\/20 { background-color: rgba(253, 164, 175, 0.2); }
+    .bg-amber-300\/40 { background-color: rgba(252, 211, 77, 0.4); }
+    .bg-emerald-100 { background-color: #d1fae5; }
+    .bg-gradient-to-r { background-image: linear-gradient(to right, var(--tw-gradient-stops)); }
+    .bg-gradient-to-l { background-image: linear-gradient(to left, var(--tw-gradient-stops)); }
+    .bg-gradient-to-t { background-image: linear-gradient(to top, var(--tw-gradient-stops)); }
+    .bg-gradient-to-b { background-image: linear-gradient(to bottom, var(--tw-gradient-stops)); }
+    .bg-gradient-to-br { background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)); }
+    .bg-gradient-to-bl { background-image: linear-gradient(to bottom left, var(--tw-gradient-stops)); }
+    .bg-gradient-to-tr { background-image: linear-gradient(to top right, var(--tw-gradient-stops)); }
+    .bg-gradient-to-tl { background-image: linear-gradient(to top left, var(--tw-gradient-stops)); }
+    .from-rose-100 { --tw-gradient-from: var(--rose-100); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 228, 230, 0)); }
+    .from-rose-200 { --tw-gradient-from: var(--rose-200); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(254, 205, 211, 0)); }
+    .from-rose-300 { --tw-gradient-from: var(--rose-300); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(253, 164, 175, 0)); }
+    .from-rose-400 { --tw-gradient-from: var(--rose-400); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(251, 113, 133, 0)); }
+    .from-rose-500 { --tw-gradient-from: var(--rose-500); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(244, 63, 94, 0)); }
+    .from-rose-600 { --tw-gradient-from: var(--rose-600); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(225, 29, 72, 0)); }
+    .from-rose-700 { --tw-gradient-from: var(--rose-700); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(190, 18, 60, 0)); }
+    .from-rose-800 { --tw-gradient-from: var(--rose-800); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(159, 18, 57, 0)); }
+    .from-rose-900 { --tw-gradient-from: var(--rose-900); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(136, 19, 55, 0)); }
+    .from-rose-950 { --tw-gradient-from: var(--rose-950); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(76, 5, 25, 0)); }
+    .from-pink-100 { --tw-gradient-from: var(--pink-100); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(252, 231, 243, 0)); }
+    .from-pink-200 { --tw-gradient-from: var(--pink-200); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(251, 207, 232, 0)); }
+    .from-pink-300 { --tw-gradient-from: var(--pink-300); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(249, 168, 212, 0)); }
+    .from-pink-400 { --tw-gradient-from: var(--pink-400); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(244, 114, 182, 0)); }
+    .from-pink-500 { --tw-gradient-from: var(--pink-500); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(236, 72, 153, 0)); }
+    .from-purple-400 { --tw-gradient-from: var(--purple-400); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(192, 132, 252, 0)); }
+    .from-purple-500 { --tw-gradient-from: var(--purple-500); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(168, 85, 247, 0)); }
+    .from-purple-600 { --tw-gradient-from: var(--purple-600); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(147, 51, 234, 0)); }
+    .from-amber-300 { --tw-gradient-from: var(--amber-300); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(252, 211, 77, 0)); }
+    .from-amber-400 { --tw-gradient-from: var(--amber-400); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(251, 191, 36, 0)); }
+    .from-amber-500 { --tw-gradient-from: var(--amber-500); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(245, 158, 11, 0)); }
+    .from-blue-400 { --tw-gradient-from: #60a5fa; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(96, 165, 250, 0)); }
+    .from-indigo-500 { --tw-gradient-from: #6366f1; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(99, 102, 241, 0)); }
+    .from-teal-400 { --tw-gradient-from: #2dd4bf; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(45, 212, 191, 0)); }
+    .from-cyan-500 { --tw-gradient-from: #06b6d4; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(6, 182, 212, 0)); }
+    .from-yellow-400 { --tw-gradient-from: #facc15; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(250, 204, 21, 0)); }
+    .from-orange-400 { --tw-gradient-from: #fb923c; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(251, 146, 60, 0)); }
+    .from-orange-500 { --tw-gradient-from: #f97316; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(249, 115, 22, 0)); }
+    .from-red-400 { --tw-gradient-from: var(--red-400); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(248, 113, 113, 0)); }
+    .from-violet-400 { --tw-gradient-from: #a78bfa; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(167, 139, 250, 0)); }
+    .from-gray-900 { --tw-gradient-from: var(--gray-900); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(17, 24, 39, 0)); }
+    .via-pink-400 { --tw-gradient-stops: var(--tw-gradient-from), var(--pink-400), var(--tw-gradient-to); }
+    .to-rose-100 { --tw-gradient-to: var(--rose-100); }
+    .to-rose-200 { --tw-gradient-to: var(--rose-200); }
+    .to-rose-300 { --tw-gradient-to: var(--rose-300); }
+    .to-rose-400 { --tw-gradient-to: var(--rose-400); }
+    .to-rose-500 { --tw-gradient-to: var(--rose-500); }
+    .to-rose-600 { --tw-gradient-to: var(--rose-600); }
+    .to-pink-50 { --tw-gradient-to: var(--pink-50); }
+    .to-pink-100 { --tw-gradient-to: var(--pink-100); }
+    .to-pink-200 { --tw-gradient-to: var(--pink-200); }
+    .to-pink-300 { --tw-gradient-to: var(--pink-300); }
+    .to-pink-400 { --tw-gradient-to: var(--pink-400); }
+    .to-pink-500 { --tw-gradient-to: var(--pink-500); }
+    .to-purple-400 { --tw-gradient-to: var(--purple-400); }
+    .to-purple-500 { --tw-gradient-to: var(--purple-500); }
+    .to-purple-600 { --tw-gradient-to: var(--purple-600); }
+    .to-amber-300 { --tw-gradient-to: var(--amber-300); }
+    .to-amber-400 { --tw-gradient-to: var(--amber-400); }
+    .to-amber-500 { --tw-gradient-to: var(--amber-500); }
+    .to-indigo-500 { --tw-gradient-to: #6366f1; }
+    .to-emerald-500 { --tw-gradient-to: #10b981; }
+    .to-cyan-500 { --tw-gradient-to: #06b6d4; }
+    .to-rose-900 { --tw-gradient-to: var(--rose-900); }
+    .to-rose-950 { --tw-gradient-to: var(--rose-950); }
+    .to-gray-900 { --tw-gradient-to: var(--gray-900); }
+    .to-orange-500 { --tw-gradient-to: #f97316; }
+    .shadow-sm { box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); }
+    .shadow { box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1); }
+    .shadow-md { box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1); }
+    .shadow-lg { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1); }
+    .shadow-xl { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); }
+    .shadow-2xl { box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); }
+    .shadow-rose-100 { box-shadow: 0 1px 2px 0 rgba(244, 63, 94, 0.05); --tw-shadow-color: var(--rose-100); }
+    .shadow-rose-100\/30 { box-shadow: 0 4px 6px -1px rgba(244, 63, 94, 0.3); }
+    .shadow-rose-100\/40 { box-shadow: 0 4px 6px -1px rgba(244, 63, 94, 0.4); }
+    .shadow-rose-100\/50 { box-shadow: 0 4px 6px -1px rgba(244, 63, 94, 0.5); }
+    .shadow-rose-200 { box-shadow: 0 1px 3px 0 rgba(244, 63, 94, 0.2); --tw-shadow-color: var(--rose-200); }
+    .shadow-rose-200\/30 { box-shadow: 0 10px 15px -3px rgba(244, 63, 94, 0.3); }
+    .shadow-rose-200\/40 { box-shadow: 0 10px 15px -3px rgba(244, 63, 94, 0.4); }
+    .shadow-rose-200\/50 { box-shadow: 0 10px 15px -3px rgba(244, 63, 94, 0.5); }
+    .shadow-rose-300\/30 { box-shadow: 0 25px 50px -12px rgba(244, 63, 94, 0.3); }
+    .shadow-rose-300\/40 { box-shadow: 0 25px 50px -12px rgba(244, 63, 94, 0.4); }
+    .shadow-rose-500\/20 { box-shadow: 0 10px 15px -3px rgba(244, 63, 94, 0.2); }
+    .shadow-rose-500\/30 { box-shadow: 0 10px 15px -3px rgba(244, 63, 94, 0.3); }
+    .shadow-rose-500\/40 { box-shadow: 0 10px 15px -3px rgba(244, 63, 94, 0.4); }
+    .shadow-rose-500\/50 { box-shadow: 0 10px 15px -3px rgba(244, 63, 94, 0.5); }
+    .shadow-inner { box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.05); }
+    .shadow-none { box-shadow: none; }
+    .ring-2 { box-shadow: 0 0 0 2px var(--tw-ring-color); }
+    .ring-rose-400 { --tw-ring-color: var(--rose-400); }
+    .ring-white { --tw-ring-color: white; }
+    .ring-offset-2 { --tw-ring-offset-width: 2px; }
+    .ring-offset-rose-100 { --tw-ring-offset-color: var(--rose-100); }
+    .object-cover { object-fit: cover; }
+    .object-contain { object-fit: contain; }
+    .object-center { object-position: center; }
+    .object-top { object-position: top; }
+    .overflow-hidden { overflow: hidden; }
+    .overflow-auto { overflow: auto; }
+    .overflow-visible { overflow: visible; }
+    .overflow-x-auto { overflow-x: auto; }
+    .overflow-y-auto { overflow-y: auto; }
+    .overflow-x-hidden { overflow-x: hidden; }
+    .text-xs { font-size: 0.75rem; line-height: 1rem; }
+    .text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+    .text-base { font-size: 1rem; line-height: 1.5rem; }
+    .text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+    .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+    .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+    .text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+    .text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+    .text-5xl { font-size: 3rem; line-height: 1; }
+    .text-6xl { font-size: 3.75rem; line-height: 1; }
+    .text-7xl { font-size: 4.5rem; line-height: 1; }
+    .text-8xl { font-size: 6rem; line-height: 1; }
+    .text-9xl { font-size: 8rem; line-height: 1; }
+    .text-white { color: white; }
+    .text-black { color: black; }
+    .text-rose-100 { color: var(--rose-100); }
+    .text-rose-200 { color: var(--rose-200); }
+    .text-rose-300 { color: var(--rose-300); }
+    .text-rose-400 { color: var(--rose-400); }
+    .text-rose-500 { color: var(--rose-500); }
+    .text-rose-600 { color: var(--rose-600); }
+    .text-rose-700 { color: var(--rose-700); }
+    .text-rose-800 { color: var(--rose-800); }
+    .text-rose-900 { color: var(--rose-900); }
+    .text-pink-50 { color: var(--pink-50); }
+    .text-pink-100 { color: var(--pink-100); }
+    .text-pink-200 { color: var(--pink-200); }
+    .text-pink-300 { color: var(--pink-300); }
+    .text-pink-400 { color: var(--pink-400); }
+    .text-pink-500 { color: var(--pink-500); }
+    .text-pink-600 { color: var(--pink-600); }
+    .text-purple-300 { color: #d8b4fe; }
+    .text-purple-400 { color: var(--purple-400); }
+    .text-amber-300 { color: var(--amber-300); }
+    .text-amber-400 { color: var(--amber-400); }
+    .text-gray-50 { color: var(--gray-50); }
+    .text-gray-100 { color: var(--gray-100); }
+    .text-gray-200 { color: var(--gray-200); }
+    .text-gray-300 { color: var(--gray-300); }
+    .text-gray-400 { color: var(--gray-400); }
+    .text-gray-500 { color: var(--gray-500); }
+    .text-gray-600 { color: var(--gray-600); }
+    .text-gray-700 { color: var(--gray-700); }
+    .text-gray-800 { color: var(--gray-800); }
+    .text-gray-900 { color: var(--gray-900); }
+    .text-red-400 { color: var(--red-400); }
+    .text-emerald-400 { color: #34d399; }
+    .text-rose-400\/30 { color: rgba(244, 63, 94, 0.3); }
+    .text-rose-400\/40 { color: rgba(244, 63, 94, 0.4); }
+    .text-rose-400\/50 { color: rgba(244, 63, 94, 0.5); }
+    .text-rose-400\/60 { color: rgba(244, 63, 94, 0.6); }
+    .text-rose-400\/70 { color: rgba(244, 63, 94, 0.7); }
+    .text-rose-400\/80 { color: rgba(244, 63, 94, 0.8); }
+    .text-rose-400\/90 { color: rgba(244, 63, 94, 0.9); }
+    .text-rose-300\/80 { color: rgba(253, 164, 175, 0.8); }
+    .text-rose-100\/90 { color: rgba(255, 228, 230, 0.9); }
+    .text-white\/10 { color: rgba(255, 255, 255, 0.1); }
+    .text-white\/30 { color: rgba(255, 255, 255, 0.3); }
+    .text-white\/50 { color: rgba(255, 255, 255, 0.5); }
+    .text-white\/70 { color: rgba(255, 255, 255, 0.7); }
+    .text-white\/90 { color: rgba(255, 255, 255, 0.9); }
+    .text-rose-50 { color: var(--rose-50); }
+    .italic { font-style: italic; }
+    .not-italic { font-style: normal; }
+    .font-thin { font-weight: 100; }
+    .font-light { font-weight: 300; }
+    .font-normal { font-weight: 400; }
+    .font-medium { font-weight: 500; }
+    .font-semibold { font-weight: 600; }
+    .font-bold { font-weight: 700; }
+    .font-extrabold { font-weight: 800; }
+    .uppercase { text-transform: uppercase; }
+    .lowercase { text-transform: lowercase; }
+    .capitalize { text-transform: capitalize; }
+    .normal-case { text-transform: none; }
+    .leading-none { line-height: 1; }
+    .leading-tight { line-height: 1.25; }
+    .leading-snug { line-height: 1.375; }
+    .leading-normal { line-height: 1.5; }
+    .leading-relaxed { line-height: 1.625; }
+    .leading-loose { line-height: 2; }
+    .tracking-tight { letter-spacing: -0.025em; }
+    .tracking-normal { letter-spacing: 0; }
+    .tracking-wide { letter-spacing: 0.025em; }
+    .tracking-wider { letter-spacing: 0.05em; }
+    .tracking-widest { letter-spacing: 0.1em; }
+    .line-clamp-2 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+    .line-clamp-3 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+    .whitespace-nowrap { white-space: nowrap; }
+    .whitespace-normal { white-space: normal; }
+    .break-words { overflow-wrap: break-word; }
+    .bg-clip-text { -webkit-background-clip: text; background-clip: text; }
+    .placeholder-gray-400::placeholder { color: var(--gray-400); }
+    .select-none { user-select: none; }
+    .pointer-events-none { pointer-events: none; }
+    .pointer-events-auto { pointer-events: auto; }
+    .cursor-pointer { cursor: pointer; }
+    .cursor-default { cursor: default; }
+    .cursor-grab { cursor: grab; }
+    .cursor-move { cursor: move; }
+    .resize-none { resize: none; }
+    .resize { resize: both; }
+    .appearance-none { appearance: none; }
+    .opacity-0 { opacity: 0; }
+    .opacity-5 { opacity: 0.05; }
+    .opacity-10 { opacity: 0.1; }
+    .opacity-20 { opacity: 0.2; }
+    .opacity-30 { opacity: 0.3; }
+    .opacity-40 { opacity: 0.4; }
+    .opacity-50 { opacity: 0.5; }
+    .opacity-60 { opacity: 0.6; }
+    .opacity-70 { opacity: 0.7; }
+    .opacity-80 { opacity: 0.8; }
+    .opacity-90 { opacity: 0.9; }
+    .opacity-100 { opacity: 1; }
+    .mix-blend-multiply { mix-blend-mode: multiply; }
+    .mix-blend-screen { mix-blend-mode: screen; }
+    .mix-blend-overlay { mix-blend-mode: overlay; }
+    .mix-blend-darken { mix-blend-mode: darken; }
+    .mix-blend-lighten { mix-blend-mode: lighten; }
+    .mix-blend-color { mix-blend-mode: color; }
+    .mix-blend-difference { mix-blend-mode: difference; }
+    .mix-blend-exclusion { mix-blend-mode: exclusion; }
+    .mix-blend-hue { mix-blend-mode: hue; }
+    .mix-blend-saturation { mix-blend-mode: saturation; }
+    .mix-blend-color-burn { mix-blend-mode: color-burn; }
+    .mix-blend-soft-light { mix-blend-mode: soft-light; }
+    .mix-blend-hard-light { mix-blend-mode: hard-light; }
+    .mix-blend-luminosity { mix-blend-mode: luminosity; }
+    .mix-blend-plus-lighter { mix-blend-mode: plus-lighter; }
+    .isolate { isolation: isolate; }
+    .isolation-auto { isolation: auto; }
+    .z-0 { z-index: 0; }
+    .z-10 { z-index: 10; }
+    .z-20 { z-index: 20; }
+    .z-30 { z-index: 30; }
+    .z-40 { z-index: 40; }
+    .z-50 { z-index: 50; }
+    .z-\[100\] { z-index: 100; }
+    .z-\[200\] { z-index: 200; }
+    .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+    .inset-1 { top: 0.25rem; right: 0.25rem; bottom: 0.25rem; left: 0.25rem; }
+    .inset-2 { top: 0.5rem; right: 0.5rem; bottom: 0.5rem; left: 0.5rem; }
+    .inset-4 { top: 1rem; right: 1rem; bottom: 1rem; left: 1rem; }
+    .inset-6 { top: 1.5rem; right: 1.5rem; bottom: 1.5rem; left: 1.5rem; }
+    .inset-8 { top: 2rem; right: 2rem; bottom: 2rem; left: 2rem; }
+    .inset-auto { inset: auto; }
+    .inset-x-0 { left: 0; right: 0; }
+    .inset-y-0 { top: 0; bottom: 0; }
+    .top-0 { top: 0; }
+    .top-1 { top: 0.25rem; }
+    .top-2 { top: 0.5rem; }
+    .top-3 { top: 0.75rem; }
+    .top-4 { top: 1rem; }
+    .top-6 { top: 1.5rem; }
+    .top-8 { top: 2rem; }
+    .top-10 { top: 2.5rem; }
+    .top-1\/2 { top: 50%; }
+    .top-1\/3 { top: 33.333333%; }
+    .top-1\/4 { top: 25%; }
+    .top-2\/3 { top: 66.666667%; }
+    .top-3\/4 { top: 75%; }
+    .bottom-0 { bottom: 0; }
+    .bottom-1 { bottom: 0.25rem; }
+    .bottom-2 { bottom: 0.5rem; }
+    .bottom-3 { bottom: 0.75rem; }
+    .bottom-4 { bottom: 1rem; }
+    .bottom-6 { bottom: 1.5rem; }
+    .bottom-8 { bottom: 2rem; }
+    .bottom-1\/2 { bottom: 50%; }
+    .bottom-1\/3 { bottom: 33.333333%; }
+    .bottom-1\/4 { bottom: 25%; }
+    .bottom-2\/3 { bottom: 66.666667%; }
+    .bottom-3\/4 { bottom: 75%; }
+    .left-0 { left: 0; }
+    .left-1 { left: 0.25rem; }
+    .left-2 { left: 0.5rem; }
+    .left-3 { left: 0.75rem; }
+    .left-4 { left: 1rem; }
+    .left-5 { left: 1.25rem; }
+    .left-6 { left: 1.5rem; }
+    .left-1\/2 { left: 50%; }
+    .left-1\/3 { left: 33.333333%; }
+    .left-1\/4 { left: 25%; }
+    .left-2\/3 { left: 66.666667%; }
+    .left-3\/4 { left: 75%; }
+    .right-0 { right: 0; }
+    .right-1 { right: 0.25rem; }
+    .right-2 { right: 0.5rem; }
+    .right-3 { right: 0.75rem; }
+    .right-4 { right: 1rem; }
+    .right-6 { right: 1.5rem; }
+    .right-auto { right: auto; }
+    .right-1\/2 { right: 50%; }
+    .right-1\/3 { right: 33.333333%; }
+    .right-1\/4 { right: 25%; }
+    .right-2\/3 { right: 66.666667%; }
+    .right-3\/4 { right: 75%; }
+    .top-20 { top: 5rem; }
+    .bottom-20 { bottom: 5rem; }
+    .left-10 { left: 2.5rem; }
+    .right-10 { right: 2.5rem; }
+    .top-1\/2 { top: 50%; }
+    .left-1\/2 { left: 50%; }
+    .translate-x-1\/2 { transform: translateX(50%); }
+    .translate-y-1\/2 { transform: translateY(50%); }
+    .-translate-x-1\/2 { transform: translateX(-50%); }
+    .-translate-y-1\/2 { transform: translateY(-50%); }
+    .translate-x-full { transform: translateX(100%); }
+    .translate-y-full { transform: translateY(100%); }
+    .translate-x-0 { transform: translateX(0); }
+    .translate-y-0 { transform: translateY(0); }
+    .translate-x-4 { transform: translateX(1rem); }
+    .translate-y-4 { transform: translateY(1rem); }
+    .translate-x-\[3px\] { transform: translateX(3px); }
+    .translate-y-\[3px\] { transform: translateY(3px); }
+    .rotate-0 { transform: rotate(0deg); }
+    .rotate-45 { transform: rotate(45deg); }
+    .rotate-90 { transform: rotate(90deg); }
+    .rotate-180 { transform: rotate(180deg); }
+    .rotate-270 { transform: rotate(270deg); }
+    .scale-0 { transform: scale(0); }
+    .scale-50 { transform: scale(0.5); }
+    .scale-75 { transform: scale(0.75); }
+    .scale-90 { transform: scale(0.9); }
+    .scale-95 { transform: scale(0.95); }
+    .scale-100 { transform: scale(1); }
+    .scale-105 { transform: scale(1.05); }
+    .scale-110 { transform: scale(1.1); }
+    .scale-120 { transform: scale(1.2); }
+    .scale-150 { transform: scale(1.5); }
+    .scale-x-0 { transform: scaleX(0); }
+    .scale-x-100 { transform: scaleX(1); }
+    .scale-y-0 { transform: scaleY(0); }
+    .scale-y-100 { transform: scaleY(1); }
+    .transform { transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)); }
+    .transform-gpu { transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)); }
+    .transform-none { transform: none; }
+    .origin-center { transform-origin: center; }
+    .origin-left { transform-origin: left; }
+    .origin-right { transform-origin: right; }
+    .origin-top { transform-origin: top; }
+    .origin-bottom { transform-origin: bottom; }
+    .transition { transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+    .transition-all { transition-property: all; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+    .transition-colors { transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+    .transition-opacity { transition-property: opacity; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+    .transition-transform { transition-property: transform; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+    .transition-shadow { transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+    .transition-none { transition-property: none; }
+    .duration-100 { transition-duration: 100ms; }
+    .duration-200 { transition-duration: 200ms; }
+    .duration-300 { transition-duration: 300ms; }
+    .duration-500 { transition-duration: 500ms; }
+    .duration-700 { transition-duration: 700ms; }
+    .duration-1000 { transition-duration: 1000ms; }
+    .duration-1500 { transition-duration: 1500ms; }
+    .duration-2000 { transition-duration: 2000ms; }
+    .duration-3000 { transition-duration: 3000ms; }
+    .duration-5000 { transition-duration: 5000ms; }
+    .ease-in { transition-timing-function: cubic-bezier(0.4, 0, 1, 1); }
+    .ease-out { transition-timing-function: cubic-bezier(0, 0, 0.2, 1); }
+    .ease-in-out { transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+    .ease-linear { transition-timing-function: linear; }
+    .delay-100 { transition-delay: 100ms; }
+    .delay-200 { transition-delay: 200ms; }
+    .delay-300 { transition-delay: 300ms; }
+    .delay-500 { transition-delay: 500ms; }
+    .delay-700 { transition-delay: 700ms; }
+    .delay-1000 { transition-delay: 1000ms; }
+    .delay-1500 { transition-delay: 1500ms; }
+    .delay-2000 { transition-delay: 2000ms; }
+    .delay-3000 { transition-delay: 3000ms; }
+    .backdrop-blur-sm { backdrop-filter: blur(4px); }
+    .backdrop-blur { backdrop-filter: blur(8px); }
+    .backdrop-blur-md { backdrop-filter: blur(12px); }
+    .backdrop-blur-lg { backdrop-filter: blur(16px); }
+    .backdrop-blur-xl { backdrop-filter: blur(24px); }
+    .backdrop-blur-2xl { backdrop-filter: blur(40px); }
+    .backdrop-blur-\[2px\] { backdrop-filter: blur(2px); }
+    .backdrop-filter { backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia); }
+    .will-change-auto { will-change: auto; }
+    .will-change-scroll { will-change: scroll-position; }
+    .will-change-contents { will-change: contents; }
+    .will-change-transform { will-change: transform; }
+    .clip-path-polygon { clip-path: polygon(0 0, 50% 60%, 100% 0); }
+    .blur-sm { filter: blur(4px); }
+    .blur { filter: blur(8px); }
+    .blur-md { filter: blur(12px); }
+    .blur-lg { filter: blur(16px); }
+    .blur-xl { filter: blur(24px); }
+    .blur-2xl { filter: blur(40px); }
+    .blur-3xl { filter: blur(64px); }
+    .grayscale { filter: grayscale(100%); }
+    .grayscale-0 { filter: grayscale(0); }
+    .hue-rotate-0 { filter: hue-rotate(0deg); }
+    .hue-rotate-15 { filter: hue-rotate(15deg); }
+    .hue-rotate-30 { filter: hue-rotate(30deg); }
+    .hue-rotate-60 { filter: hue-rotate(60deg); }
+    .hue-rotate-90 { filter: hue-rotate(90deg); }
+    .hue-rotate-180 { filter: hue-rotate(180deg); }
+    .invert { filter: invert(100%); }
+    .invert-0 { filter: invert(0); }
+    .sepia { filter: sepia(100%); }
+    .sepia-0 { filter: sepia(0); }
+    .filter { filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia); }
+    .fill-white { fill: white; }
+    .fill-rose-400 { fill: var(--rose-400); }
+    .fill-rose-500 { fill: var(--rose-500); }
+    .fill-amber-300 { fill: var(--amber-300); }
+    .fill-amber-400 { fill: var(--amber-400); }
+    .fill-current { fill: currentColor; }
+    .stroke-1 { stroke-width: 1; }
+    .stroke-2 { stroke-width: 2; }
+    .stroke-4 { stroke-width: 4; }
+    .stroke-none { stroke: none; }
+    .stroke-current { stroke: currentColor; }
+    .stroke-rose-400 { stroke: var(--rose-400); }
+    .stroke-white { stroke: white; }
+    .outline-none { outline: 2px solid transparent; outline-offset: 2px; }
+    .outline { outline-style: solid; }
+    .outline-2 { outline-width: 2px; }
+    .outline-offset-2 { outline-offset: 2px; }
+    .focus-outline-none:focus { outline: none; }
+    .focus-visible-outline-none:focus-visible { outline: none; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0; }
+    .not-sr-only { position: static; width: auto; height: auto; padding: 0; margin: 0; overflow: visible; clip: auto; white-space: normal; }
+    .static { position: static; }
+    .fixed { position: fixed; }
+    .absolute { position: absolute; }
+    .relative { position: relative; }
+    .sticky { position: sticky; }
+    .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+    .top-0 { top: 0; }
+    .bottom-0 { bottom: 0; }
+    .left-0 { left: 0; }
+    .right-0 { right: 0; }
+    .top-4 { top: 1rem; }
+    .right-4 { right: 1rem; }
+    .absolute { position: absolute; }
+    .relative { position: relative; }
+    .group:hover .group-hover\:scale-105 { transform: scale(1.05); }
+    .group:hover .group-hover\:scale-110 { transform: scale(1.1); }
+    .group:hover .group-hover\:scale-120 { transform: scale(1.2); }
+    .group:hover .group-hover\:translate-x-1 { transform: translateX(0.25rem); }
+    .group:hover .group-hover\:opacity-100 { opacity: 1; }
+    .group:hover .group-hover\:opacity-20 { opacity: 0.2; }
+    .group:hover .group-hover\:opacity-50 { opacity: 0.5; }
+    .group:hover .group-hover\:text-rose-500 { color: var(--rose-500); }
+    .group:hover .group-hover\:text-rose-600 { color: var(--rose-600); }
+    .group:hover .group-hover\:text-rose-200 { color: var(--rose-200); }
+    .group:hover .group-hover\:shadow-xl { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); }
+    .group:hover .group-hover\:shadow-lg { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1); }
+    .group:hover .group-hover\:shadow-rose-300\/40 { box-shadow: 0 10px 15px -3px rgba(244, 63, 94, 0.4); }
+    .group:hover .group-hover\:scale-x-100 { transform: scaleX(1); }
+    .group:hover .group-hover\:text-white { color: white; }
+    .hover\:scale-105:hover { transform: scale(1.05); }
+    .hover\:scale-110:hover { transform: scale(1.1); }
+    .hover\:scale-95:hover { transform: scale(0.95); }
+    .hover\:scale-100:hover { transform: scale(1); }
+    .hover\:scale-115:hover { transform: scale(1.15); }
+    .hover\:scale-125:hover { transform: scale(1.25); }
+    .hover\:bg-white\/10:hover { background-color: rgba(255, 255, 255, 0.1); }
+    .hover\:bg-white\/5:hover { background-color: rgba(255, 255, 255, 0.05); }
+    .hover\:bg-rose-50:hover { background-color: var(--rose-50); }
+    .hover\:bg-rose-100:hover { background-color: var(--rose-100); }
+    .hover\:text-rose-500:hover { color: var(--rose-500); }
+    .hover\:text-rose-600:hover { color: var(--rose-600); }
+    .hover\:text-white:hover { color: white; }
+    .hover\:shadow-xl:hover { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); }
+    .hover\:shadow-lg:hover { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1); }
+    .hover\:shadow-rose-200\/40:hover { box-shadow: 0 10px 15px -3px rgba(244, 63, 94, 0.4); }
+    .hover\:shadow-rose-300:hover { box-shadow: 0 10px 15px -3px rgba(244, 63, 94, 0.3); }
+    .hover\:shadow-2xl:hover { box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); }
+    .hover\:border-rose-500\/30:hover { border-color: rgba(244, 63, 94, 0.3); }
+    .hover\:translate-y-1:hover { transform: translateY(0.25rem); }
+    .hover\:translate-y-2:hover { transform: translateY(0.5rem); }
+    .hover\:translate-y-4:hover { transform: translateY(1rem); }
+    .hover\:translate-y-5:hover { transform: translateY(1.25rem); }
+    .hover\:translate-y-8:hover { transform: translateY(2rem); }
+    .hover\:-translate-y-1:hover { transform: translateY(-0.25rem); }
+    .hover\:-translate-y-2:hover { transform: translateY(-0.5rem); }
+    .hover\:-translate-y-4:hover { transform: translateY(-1rem); }
+    .hover\:-translate-y-5:hover { transform: translateY(-1.25rem); }
+    .hover\:-translate-y-8:hover { transform: translateY(-2rem); }
+    .focus\:outline-none:focus { outline: none; }
+    .focus\:ring-2:focus { box-shadow: 0 0 0 2px var(--tw-ring-color); }
+    .focus\:ring-rose-400:focus { --tw-ring-color: var(--rose-400); }
+    .focus\:ring-offset-2:focus { --tw-ring-offset-width: 2px; }
+    .focus\:ring-offset-rose-100:focus { --tw-ring-offset-color: var(--rose-100); }
+    .active\:scale-95:active { transform: scale(0.95); }
+    .active\:scale-90:active { transform: scale(0.9); }
+    .active\:scale-100:active { transform: scale(1); }
+    .active\:bg-rose-400:active { background-color: var(--rose-400); }
+    .disabled\:opacity-50:disabled { opacity: 0.5; }
+    .disabled\:cursor-not-allowed:disabled { cursor: not-allowed; }
+    .disabled\:pointer-events-none:disabled { pointer-events: none; }
+    .sm\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .sm\:flex-row { flex-direction: row; }
+    .sm\:gap-6 { gap: 1.5rem; }
+    .sm\:px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+    .sm\:text-left { text-align: left; }
+    .sm\:text-right { text-align: right; }
+    .sm\:justify-start { justify-content: flex-start; }
+    .sm\:justify-end { justify-content: flex-end; }
+    .sm\:justify-between { justify-content: space-between; }
+    .sm\:items-start { align-items: flex-start; }
+    .sm\:items-end { align-items: flex-end; }
+    .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .md\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .md\:h-16 { height: 4rem; }
+    .md\:h-20 { height: 5rem; }
+    .md\:h-80 { height: 20rem; }
+    .md\:h-96 { height: 24rem; }
+    .md\:w-16 { width: 4rem; }
+    .md\:w-20 { width: 5rem; }
+    .md\:w-32 { width: 8rem; }
+    .md\:w-80 { width: 20rem; }
+    .md\:p-6 { padding: 1.5rem; }
+    .md\:p-8 { padding: 2rem; }
+    .md\:p-12 { padding: 3rem; }
+    .md\:p-14 { padding: 3.5rem; }
+    .md\:p-16 { padding: 4rem; }
+    .md\:py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+    .md\:py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+    .md\:py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+    .md\:py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+    .md\:py-20 { padding-top: 5rem; padding-bottom: 5rem; }
+    .md\:py-24 { padding-top: 6rem; padding-bottom: 6rem; }
+    .md\:px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+    .md\:px-8 { padding-left: 2rem; padding-right: 2rem; }
+    .md\:px-12 { padding-left: 3rem; padding-right: 3rem; }
+    .md\:px-16 { padding-left: 4rem; padding-right: 4rem; }
+    .md\:pt-6 { padding-top: 1.5rem; }
+    .md\:pt-8 { padding-top: 2rem; }
+    .md\:pt-12 { padding-top: 3rem; }
+    .md\:pt-16 { padding-top: 4rem; }
+    .md\:pb-6 { padding-bottom: 1.5rem; }
+    .md\:pb-8 { padding-bottom: 2rem; }
+    .md\:pb-12 { padding-bottom: 3rem; }
+    .md\:pb-16 { padding-bottom: 4rem; }
+    .md\:mb-0 { margin-bottom: 0; }
+    .md\:mb-4 { margin-bottom: 1rem; }
+    .md\:mb-6 { margin-bottom: 1.5rem; }
+    .md\:mb-8 { margin-bottom: 2rem; }
+    .md\:mb-12 { margin-bottom: 3rem; }
+    .md\:mb-16 { margin-bottom: 4rem; }
+    .md\:mt-0 { margin-top: 0; }
+    .md\:mt-4 { margin-top: 1rem; }
+    .md\:mt-6 { margin-top: 1.5rem; }
+    .md\:mt-8 { margin-top: 2rem; }
+    .md\:mt-12 { margin-top: 3rem; }
+    .md\:mt-16 { margin-top: 4rem; }
+    .md\:gap-4 { gap: 1rem; }
+    .md\:gap-6 { gap: 1.5rem; }
+    .md\:gap-8 { gap: 2rem; }
+    .md\:text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+    .md\:text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+    .md\:text-5xl { font-size: 3rem; line-height: 1; }
+    .md\:text-6xl { font-size: 3.75rem; line-height: 1; }
+    .md\:text-7xl { font-size: 4.5rem; line-height: 1; }
+    .md\:text-8xl { font-size: 6rem; line-height: 1; }
+    .md\:text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+    .md\:text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+    .md\:text-2xl { font-size: 1.5rem; line-height: 2rem; }
+    .md\:hidden { display: none; }
+    .md\:flex { display: flex; }
+    .md\:grid { display: grid; }
+    .md\:block { display: block; }
+    .md\:inline-block { display: inline-block; }
+    .md\:inline { display: inline; }
+    .md\:flex-row { flex-direction: row; }
+    .md\:flex-col { flex-direction: column; }
+    .md\:items-start { align-items: flex-start; }
+    .md\:items-center { align-items: center; }
+    .md\:items-end { align-items: flex-end; }
+    .md\:justify-center { justify-content: center; }
+    .md\:justify-between { justify-content: space-between; }
+    .md\:justify-start { justify-content: flex-start; }
+    .md\:justify-end { justify-content: flex-end; }
+    .md\:w-auto { width: auto; }
+    .md\:w-1\/2 { width: 50%; }
+    .md\:w-1\/3 { width: 33.333333%; }
+    .md\:w-2\/3 { width: 66.666667%; }
+    .md\:max-w-2xl { max-width: 42rem; }
+    .md\:max-w-3xl { max-width: 48rem; }
+    .md\:max-w-4xl { max-width: 56rem; }
+    .md\:max-w-5xl { max-width: 64rem; }
+    .md\:max-w-6xl { max-width: 72rem; }
+    .md\:flex-1 { flex: 1 1 0%; }
+    .md\:flex-shrink-0 { flex-shrink: 0; }
+    .md\:text-left { text-align: left; }
+    .md\:text-center { text-align: center; }
+    .md\:text-right { text-align: right; }
+    .md\:flex-nowrap { flex-wrap: nowrap; }
+    .md\:gap-x-6 { column-gap: 1.5rem; }
+    .md\:gap-y-8 { row-gap: 2rem; }
+    .md\:space-y-0 > * + * { margin-top: 0; }
+    .md\:divide-y > * + * { border-top-width: 1px; }
+    .md\:overflow-hidden { overflow: hidden; }
+    .md\:rounded-2xl { border-radius: 1rem; }
+    .md\:rounded-3xl { border-radius: 1.5rem; }
+    .md\:rounded-full { border-radius: 9999px; }
+    .md\:shadow-lg { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1); }
+    .md\:shadow-xl { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); }
+    .md\:shadow-2xl { box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); }
+    .md\:hover\:scale-105:hover { transform: scale(1.05); }
+    .md\:hover\:scale-110:hover { transform: scale(1.1); }
+    .lg\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .lg\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .lg\:grid-cols-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+    .lg\:h-16 { height: 4rem; }
+    .lg\:h-20 { height: 5rem; }
+    .lg\:h-80 { height: 20rem; }
+    .lg\:h-96 { height: 24rem; }
+    .lg\:p-8 { padding: 2rem; }
+    .lg\:p-12 { padding: 3rem; }
+    .lg\:p-16 { padding: 4rem; }
+    .lg\:p-24 { padding: 6rem; }
+    .lg\:px-8 { padding-left: 2rem; padding-right: 2rem; }
+    .lg\:gap-6 { gap: 1.5rem; }
+    .lg\:gap-8 { gap: 2rem; }
+    .lg\:text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+    .lg\:text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+    .lg\:text-5xl { font-size: 3rem; line-height: 1; }
+    .lg\:text-6xl { font-size: 3.75rem; line-height: 1; }
+    .lg\:text-7xl { font-size: 4.5rem; line-height: 1; }
+    .lg\:text-8xl { font-size: 6rem; line-height: 1; }
+    .lg\:text-9xl { font-size: 8rem; line-height: 1; }
+    .lg\:hidden { display: none; }
+    .lg\:flex { display: flex; }
+    .lg\:grid { display: grid; }
+    .lg\:block { display: block; }
+    .lg\:inline-block { display: inline-block; }
+    .lg\:inline-flex { display: inline-flex; }
+    .lg\:items-center { align-items: center; }
+    .lg\:justify-between { justify-content: space-between; }
+    .lg\:justify-center { justify-content: center; }
+    .lg\:w-auto { width: auto; }
+    .lg\:w-1\/2 { width: 50%; }
+    .lg\:w-1\/3 { width: 33.333333%; }
+    .lg\:w-1\/4 { width: 25%; }
+    .lg\:w-2\/3 { width: 66.666667%; }
+    .lg\:w-3\/4 { width: 75%; }
+    .lg\:flex-row { flex-direction: row; }
+    .lg\:flex-wrap { flex-wrap: wrap; }
+    .lg\:text-left { text-align: left; }
+    .lg\:text-center { text-align: center; }
+    .lg\:text-right { text-align: right; }
+    .lg\:gap-x-8 { column-gap: 2rem; }
+    .lg\:gap-y-12 { row-gap: 3rem; }
+    .xl\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .xl\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .xl\:p-10 { padding: 2.5rem; }
+    .xl\:p-12 { padding: 3rem; }
+    .xl\:px-4 { padding-left: 1rem; padding-right: 1rem; }
+    .xl\:gap-8 { gap: 2rem; }
+    .xl\:text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+    .xl\:text-5xl { font-size: 3rem; line-height: 1; }
+    .xl\:text-6xl { font-size: 3.75rem; line-height: 1; }
+    .xl\:text-7xl { font-size: 4.5rem; line-height: 1; }
+    .xl\:text-8xl { font-size: 6rem; line-height: 1; }
+    .xl\:hidden { display: none; }
+    .xl\:flex { display: flex; }
+    .xl\:inline { display: inline; }
+    .xl\:inline-flex { display: inline-flex; }
+    .xl\:block { display: block; }
+    .xl\:grid { display: grid; }
+    .xl\:w-auto { width: auto; }
+    .xl\:items-center { align-items: center; }
+    .xl\:justify-between { justify-content: space-between; }
+    .xl\:justify-center { justify-content: center; }
+    .xl\:justify-start { justify-content: flex-start; }
+    .xl\:justify-end { justify-content: flex-end; }
+    .xl\:flex-row { flex-direction: row; }
+    .xl\:gap-4 { gap: 1rem; }
+    .xl\:gap-6 { gap: 1.5rem; }
+    .xl\:gap-8 { gap: 2rem; }
+    .xl\:text-left { text-align: left; }
+    .xl\:text-center { text-align: center; }
+    .xl\:text-right { text-align: right; }
+    .xl\:text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+    .xl\:text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+    .xl\:text-5xl { font-size: 3rem; line-height: 1; }
+    .xl\:text-6xl { font-size: 3.75rem; line-height: 1; }
+    .xl\:inline { display: inline; }
+    .xl\:text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+    .xl\:text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+    .xl\:text-5xl { font-size: 3rem; line-height: 1; }
+    .xl\:text-6xl { font-size: 3.75rem; line-height: 1; }
+    .xl\:gap-4 { gap: 1rem; }
+    .xl\:hidden { display: none; }
+    .xl\:flex { display: flex; }
+    .xl\:inline-flex { display: inline-flex; }
+    .xl\:inline { display: inline; }
+    .xl\:block { display: block; }
+    .xl\:grid { display: grid; }
+    .xl\:items-center { align-items: center; }
+    .xl\:justify-between { justify-content: space-between; }
+    .xl\:justify-center { justify-content: center; }
+    .xl\:justify-start { justify-content: flex-start; }
+    .xl\:justify-end { justify-content: flex-end; }
+    .xl\:flex-row { flex-direction: row; }
+    .xl\:gap-4 { gap: 1rem; }
+    .xl\:gap-6 { gap: 1.5rem; }
+    .xl\:gap-8 { gap: 2rem; }
+    .xl\:text-left { text-align: left; }
+    .xl\:text-center { text-align: center; }
+    .xl\:text-right { text-align: right; }
+    .xl\:text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+    .xl\:text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+    .xl\:text-5xl { font-size: 3rem; line-height: 1; }
+    .xl\:text-6xl { font-size: 3.75rem; line-height: 1; }
+    .xl\:inline { display: inline; }
+    .xl\:text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+    .xl\:text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+    .xl\:text-5xl { font-size: 3rem; line-height: 1; }
+    .xl\:text-6xl { font-size: 3.75rem; line-height: 1; }
+    .xl\:gap-4 { gap: 1rem; }
+    .xl\:inline { display: inline; }
+    .xl\:text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+    .xl\:text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+    .xl\:text-5xl { font-size: 3rem; line-height: 1; }
+    .xl\:text-6xl { font-size: 3.75rem; line-height: 1; }
+    .xl\:gap-4 { gap: 1rem; }
+
+    /* Responsive breakpoints */
+    @media (min-width: 640px) {
+      .sm\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (min-width: 768px) {
+      .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (min-width: 1024px) {
+      .lg\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    /* Button styles */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      font-weight: 500;
+      border-radius: 9999px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      border: none;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(to right, var(--rose-500), var(--pink-500));
+      color: white;
+      box-shadow: 0 4px 14px rgba(244, 63, 94, 0.3);
+    }
+
+    .btn-primary:hover {
+      transform: scale(1.05);
+      box-shadow: 0 20px 40px rgba(244, 63, 94, 0.3);
+    }
+
+    .btn-secondary {
+      border: 2px solid var(--rose-300);
+      color: var(--rose-500);
+      background: transparent;
+    }
+
+    .btn-secondary:hover {
+      background: var(--rose-50);
+    }
+
+    /* Animations */
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes scaleIn {
+      from { opacity: 0; transform: scale(0.8); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .animate-slide-in { animation: slideIn 0.5s ease forwards; }
+    .animate-slide-up { animation: slideUp 0.6s ease forwards; }
+    .animate-scale-in { animation: scaleIn 0.5s ease forwards; }
+    .animate-fade-in { animation: fadeIn 0.5s ease forwards; }
+
+    /* Card styles */
+    .card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 14px rgba(244, 63, 94, 0.1);
+      border: 1px solid var(--rose-100);
+      overflow: hidden;
+      transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 25px 50px rgba(244, 63, 94, 0.25);
+    }
+
+    /* Container */
+    .container {
+      width: 100%;
+      max-width: 72rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    @media (min-width: 640px) {
+      .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .container {
+        max-width: 80rem;
+      }
+    }
+
+    /* Page transitions */
+    .page {
+      animation: fadeSlideIn 0.8s ease forwards;
+    }
+
+    /* Custom selection */
+    ::selection {
+      background: var(--rose-200);
+      color: var(--rose-900);
+    }
+
+    /* Loading animation */
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .animate-spin {
+      animation: spin 1s linear infinite;
+    }
+
+    /* Image overlay */
+    .overlay-gradient {
+      background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 50%);
+    }
+
+    /* Stagger animation helper */
+    .stagger-1 { animation-delay: 0.1s; }
+    .stagger-2 { animation-delay: 0.2s; }
+    .stagger-3 { animation-delay: 0.3s; }
+    .stagger-4 { animation-delay: 0.4s; }
+    .stagger-5 { animation-delay: 0.5s; }
+
+    /* Modal styles */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 50;
+      padding: 1rem;
+    }
+
+    .modal-content {
+      background: white;
+      border-radius: 1.5rem;
+      max-width: 32rem;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    }
+
+    /* Scrollbar for modal */
+    .modal-content::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .modal-content::-webkit-scrollbar-track {
+      background: var(--pink-50);
+    }
+
+    .modal-content::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, var(--rose-400), var(--pink-400));
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <!-- Lock Screen -->
+    <div id="lock-screen" class="fixed inset-0 z-[100] flex flex-col items-center justify-center overflow-hidden select-none" style="background: linear-gradient(to bottom right, #111827, #4c0519, #111827);">
+      <div class="absolute inset-0" style="background: linear-gradient(to bottom right, #111827, #4c0519, #111827);">
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 rounded-full" style="background: rgba(244,63,94,0.05); filter: blur(64px);"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full" style="background: rgba(236,72,153,0.05); filter: blur(64px);"></div>
+      </div>
+      
+      <div class="relative z-10 flex flex-col items-center w-full max-w-sm px-6">
+        <div class="text-center mb-8" style="animation: fadeSlideIn 0.8s ease forwards;">
+          <h1 id="lock-time" class="text-white text-6xl md:text-7xl font-light tracking-tight mb-1">--:--</h1>
+          <p id="lock-date" class="text-rose-300/80 text-lg font-light">Loading...</p>
+        </div>
+
+        <div class="mb-4" style="animation: scaleIn 0.5s ease 0.2s both;">
+          <div class="w-16 h-16 rounded-full flex items-center justify-center" style="background: linear-gradient(to bottom right, rgba(244,63,94,0.2), rgba(244,114,182,0.2)); border: 1px solid rgba(244,63,94,0.3); box-shadow: 0 0 20px rgba(244,63,94,0.2); animation: pulseGlow 2.5s ease-in-out infinite;">
+            <svg class="w-7 h-7 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+          </div>
+        </div>
+
+        <div class="text-center mb-6" style="animation: fadeSlideIn 0.8s ease 0.3s both;">
+          <h2 class="font-dancing text-2xl text-rose-300 mb-1">💕 Enter PIN to Unlock 💕</h2>
+          <p class="text-rose-400/50 text-xs">This is for someone very special</p>
+        </div>
+
+        <div id="pin-dots" class="flex gap-5 mb-8">
+          <div class="w-4 h-4 rounded-full border-2" style="border-color: rgba(244,63,94,0.3);"></div>
+          <div class="w-4 h-4 rounded-full border-2" style="border-color: rgba(244,63,94,0.3);"></div>
+          <div class="w-4 h-4 rounded-full border-2" style="border-color: rgba(244,63,94,0.3);"></div>
+          <div class="w-4 h-4 rounded-full border-2" style="border-color: rgba(244,63,94,0.3);"></div>
+        </div>
+
+        <p id="lock-error" class="text-red-400 text-sm mb-4 font-medium flex items-center gap-2" style="display: none;">
+          <span>😔</span> Wrong PIN, try again
+        </p>
+
+        <div id="numpad" class="grid grid-cols-3 gap-4 w-full max-w-[280px]" style="animation: fadeSlideIn 0.8s ease 0.5s both;">
+          <button class="num-btn w-[72px] h-[72px] mx-auto rounded-full flex items-center justify-center text-white text-2xl font-light transition-all duration-200" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);" data-num="1">1</button>
+          <button class="num-btn w-[72px] h-[72px] mx-auto rounded-full flex items-center justify-center text-white text-2xl font-light transition-all duration-200" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);" data-num="2">2</button>
+          <button class="num-btn w-[72px] h-[72px] mx-auto rounded-full flex items-center justify-center text-white text-2xl font-light transition-all duration-200" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);" data-num="3">3</button>
+          <button class="num-btn w-[72px] h-[72px] mx-auto rounded-full flex items-center justify-center text-white text-2xl font-light transition-all duration-200" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);" data-num="4">4</button>
+          <button class="num-btn w-[72px] h-[72px] mx-auto rounded-full flex items-center justify-center text-white text-2xl font-light transition-all duration-200" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);" data-num="5">5</button>
+          <button class="num-btn w-[72px] h-[72px] mx-auto rounded-full flex items-center justify-center text-white text-2xl font-light transition-all duration-200" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);" data-num="6">6</button>
+          <button class="num-btn w-[72px] h-[72px] mx-auto rounded-full flex items-center justify-center text-white text-2xl font-light transition-all duration-200" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);" data-num="7">7</button>
+          <button class="num-btn w-[72px] h-[72px] mx-auto rounded-full flex items-center justify-center text-white text-2xl font-light transition-all duration-200" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);" data-num="8">8</button>
+          <button class="num-btn w-[72px] h-[72px] mx-auto rounded-full flex items-center justify-center text-white text-2xl font-light transition-all duration-200" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);" data-num="9">9</button>
+          <div></div>
+          <button class="num-btn w-[72px] h-[72px] mx-auto rounded-full flex items-center justify-center text-white text-2xl font-light transition-all duration-200" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);" data-num="0">0</button>
+          <button id="delete-btn" class="w-[72px] h-[72px] mx-auto rounded-full flex items-center justify-center transition-all duration-200" style="background: transparent;">
+            <svg class="w-6 h-6 text-rose-400/70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2M3 12l6.414 6.414a2 2 0 001.414.586H19a2 2 0 002-2V7a2 2 0 00-2-2h-8.172a2 2 0 00-1.414.586L3 12z"></path></svg>
+          </button>
+        </div>
+
+        <div class="mt-8 flex items-center gap-2" style="animation: fadeSlideIn 0.8s ease 1.5s both;">
+          <svg class="w-3 h-3 text-rose-500/40" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          <p class="text-rose-400/30 text-xs text-center">Only you know the key to my heart</p>
+          <svg class="w-3 h-3 text-rose-500/40" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+        </div>
+      </div>
+
+      <!-- Unlock Animation -->
+      <div id="unlock-animation" class="fixed inset-0 z-[100] flex items-center justify-center" style="background: linear-gradient(to bottom right, #111827, #4c0519, #111827); display: none;">
+        <div class="flex flex-col items-center">
+          <div class="w-20 h-20 rounded-full flex items-center justify-center mb-4" style="background: linear-gradient(to bottom right, var(--rose-500), var(--pink-500)); box-shadow: 0 0 40px rgba(244,63,94,0.5);">
+            <svg class="w-9 h-9 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z"></path></svg>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="flex items-center gap-2 mb-2">
+              <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+              <span class="text-emerald-400 font-semibold text-lg">Unlocked!</span>
+            </div>
+            <p class="font-dancing text-rose-300 text-xl">Welcome, my love 💕</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="main-app" class="min-h-screen relative" style="background: var(--rose-50);">
+      <!-- Floating Hearts -->
+      <div id="floating-hearts" class="fixed inset-0 pointer-events-none z-10 overflow-hidden"></div>
+
+      <!-- Navigation -->
+      <nav id="navigation" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500" style="background: transparent;">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16 md:h-20">
+            <a href="#/" class="flex items-center gap-2 group">
+              <div style="animation: heartbeat 1.5s ease-in-out infinite;">
+                <svg class="w-6 h-6 md:w-8 md:h-8 text-rose-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+              </div>
+              <span class="font-dancing text-xl md:text-2xl font-bold text-rose-600 group-hover:text-rose-500 transition-colors">Girlfriend Day</span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <div class="hidden lg:flex items-center gap-1">
+              <a href="#/" class="nav-link relative px-3 xl:px-4 py-2 rounded-full text-sm font-medium transition-all duration-300" data-page="/">🏠 <span class="hidden xl:inline">Home</span></a>
+              <a href="#/love-letter" class="nav-link relative px-3 xl:px-4 py-2 rounded-full text-sm font-medium transition-all duration-300" data-page="/love-letter">💌 <span class="hidden xl:inline">Love Letter</span></a>
+              <a href="#/memories" class="nav-link relative px-3 xl:px-4 py-2 rounded-full text-sm font-medium transition-all duration-300" data-page="/memories">📸 <span class="hidden xl:inline">Memories</span></a>
+              <a href="#/reasons" class="nav-link relative px-3 xl:px-4 py-2 rounded-full text-sm font-medium transition-all duration-300" data-page="/reasons">💝 <span class="hidden xl:inline">Reasons</span></a>
+              <a href="#/promises" class="nav-link relative px-3 xl:px-4 py-2 rounded-full text-sm font-medium transition-all duration-300" data-page="/promises">🤞 <span class="hidden xl:inline">Promises</span></a>
+              <a href="#/gift" class="nav-link relative px-3 xl:px-4 py-2 rounded-full text-sm font-medium transition-all duration-300" data-page="/gift">🎁 <span class="hidden xl:inline">Gift</span></a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-full" style="background: var(--rose-50); color: var(--rose-500);">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="lg:hidden bg-white/95 backdrop-blur-lg border-t border-rose-100 overflow-hidden" style="display: none;">
+          <div class="px-4 py-3 space-y-1">
+            <a href="#/" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300" data-page="/">🏠 <span class="font-medium">Home</span></a>
+            <a href="#/love-letter" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300" data-page="/love-letter">💌 <span class="font-medium">Love Letter</span></a>
+            <a href="#/memories" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300" data-page="/memories">📸 <span class="font-medium">Memories</span></a>
+            <a href="#/reasons" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300" data-page="/reasons">💝 <span class="font-medium">Reasons I Love You</span></a>
+            <a href="#/promises" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300" data-page="/promises">🤞 <span class="font-medium">Promises</span></a>
+            <a href="#/gift" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300" data-page="/gift">🎁 <span class="font-medium">Special Gift</span></a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Page Content -->
+      <main id="page-content"></main>
+
+      <!-- Footer -->
+      <footer class="bg-gray-900 text-white py-8 relative z-20">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+          <div class="flex items-center justify-center gap-2 mb-3">
+            <span class="text-rose-400 heartbeat text-xl">❤️</span>
+            <span class="font-dancing text-xl text-rose-300">Happy Girlfriend Day</span>
+            <span class="text-rose-400 heartbeat text-xl">❤️</span>
+          </div>
+          <p class="text-gray-400 text-sm">Made with 💕 love, for the most amazing girlfriend in the world</p>
+          <p class="text-gray-500 text-xs mt-2">August 1st • Celebrating You Today and Every Day ✨</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // State management
+    let currentPage = '/';
+    let isUnlocked = false;
+    let pin = '';
+    const CORRECT_PIN = '1431';
+    let mousePos = { x: 0, y: 0 };
+
+    // Initialize floating hearts
+    function initFloatingHearts() {
+      const container = document.getElementById('floating-hearts');
+      if (!container) return;
+      
+      for (let i = 0; i < 15; i++) {
+        const heart = document.createElement('div');
+        heart.className = 'floating-heart';
+        heart.textContent = '💕';
+        heart.style.left = Math.random() * 100 + '%';
+        heart.style.fontSize = (Math.random() * 20 + 10) + 'px';
+        heart.style.animationDuration = (Math.random() * 10 + 8) + 's';
+        heart.style.animationDelay = (Math.random() * 10) + 's';
+        heart.style.opacity = Math.random() * 0.4 + 0.1;
+        container.appendChild(heart);
+      }
+    }
+
+    // Update clock
+    function updateClock() {
+      const now = new Date();
+      const timeEl = document.getElementById('lock-time');
+      const dateEl = document.getElementById('lock-date');
+      if (timeEl) {
+        timeEl.textContent = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      }
+      if (dateEl) {
+        dateEl.textContent = now.toLocaleDateString('en-US', {
+          weekday: 'long',
+          month: 'long',
+          day: 'numeric',
+        });
+      }
+    }
+
+    // Lock screen PIN handling
+    function handlePinInput(digit) {
+      const errorEl = document.getElementById('lock-error');
+      const dots = document.querySelectorAll('#pin-dots > div');
+      
+      if (errorEl) errorEl.style.display = 'none';
+      
+      if (digit === 'delete') {
+        pin = pin.slice(0, -1);
+        updatePinDots();
+        return;
+      }
+      
+      if (pin.length >= 4) return;
+      
+      pin += digit;
+      updatePinDots();
+      
+      if (pin.length === 4) {
+        if (pin === CORRECT_PIN) {
+          showUnlockAnimation();
+        } else {
+          showError();
+        }
+      }
+    }
+
+    function updatePinDots() {
+      const dots = document.querySelectorAll('#pin-dots > div');
+      dots.forEach((dot, i) => {
+        if (i < pin.length) {
+          dot.style.backgroundColor = 'var(--rose-400)';
+          dot.style.borderColor = 'var(--rose-400)';
+          dot.style.boxShadow = '0 0 10px rgba(244,63,94,0.4)';
+        } else {
+          dot.style.backgroundColor = 'transparent';
+          dot.style.borderColor = 'rgba(244,63,94,0.3)';
+          dot.style.boxShadow = 'none';
+        }
+      });
+    }
+
+    function showError() {
+      const errorEl = document.getElementById('lock-error');
+      const dots = document.querySelectorAll('#pin-dots > div');
+      
+      if (errorEl) errorEl.style.display = 'flex';
+      
+      dots.forEach(dot => {
+        dot.style.backgroundColor = 'var(--red-400)';
+        dot.style.borderColor = 'var(--red-400)';
+        dot.style.animation = 'shake 0.5s ease';
+      });
+      
+      setTimeout(() => {
+        pin = '';
+        updatePinDots();
+        dots.forEach(dot => {
+          dot.style.backgroundColor = 'transparent';
+          dot.style.borderColor = 'rgba(244,63,94,0.3)';
+          dot.style.animation = 'none';
+        });
+        if (errorEl) {
+          setTimeout(() => { errorEl.style.display = 'none'; }, 2000);
+        }
+      }, 600);
+    }
+
+    function showUnlockAnimation() {
+      const lockScreen = document.getElementById('lock-screen');
+      const unlockAnim = document.getElementById('unlock-animation');
+      
+      if (lockScreen && unlockAnim) {
+        lockScreen.style.opacity = '0';
+        lockScreen.style.transition = 'opacity 0.6s ease';
+        setTimeout(() => {
+          lockScreen.style.display = 'none';
+          unlockAnim.style.display = 'flex';
+          unlockAnim.style.animation = 'fadeIn 0.5s ease';
+          
+          setTimeout(() => {
+            unlockAnim.style.opacity = '0';
+            unlockAnim.style.transition = 'opacity 0.6s ease';
+            setTimeout(() => {
+              unlockAnim.style.display = 'none';
+              isUnlocked = true;
+              initApp();
+            }, 600);
+          }, 1800);
+        }, 600);
+      }
+    }
+
+    // Page content
+    const pages = {
+      '/': `
+        <div class="min-h-screen relative">
+          <div id="hero-bg" class="fixed inset-0 z-0 transition-all duration-1000" style="background: radial-gradient(600px circle at ${mousePos.x}px ${mousePos.y}px, rgba(244,63,94,0.08), transparent 40%);"></div>
+
+          <!-- Hero Section -->
+          <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+            <div class="absolute inset-0 overflow-hidden" style="background: linear-gradient(to bottom right, var(--rose-50), var(--pink-50), var(--purple-50)); animation: gradientShift 6s ease infinite; background-size: 200% 200%;">
+              ${Array.from({length: 20}, () => {
+                const emojis = ['✨', '💕', '🌸', '💗', '⭐', '🦋'];
+                return `<div class="absolute text-rose-200" style="left: ${Math.random() * 100}%; top: ${Math.random() * 100}%; font-size: ${Math.random() * 30 + 10}px; animation: twinkle ${Math.random() * 5 + 5}s ease-in-out infinite; animation-delay: ${Math.random() * 3}s;">${emojis[Math.floor(Math.random() * 6)]}</div>`;
+              }).join('')}
+            </div>
+
+            <div class="relative z-10 text-center px-4 max-w-5xl mx-auto">
+              <div style="animation: fadeSlideIn 1s ease forwards;">
+                <div class="inline-block mb-6" style="animation: scale 2s ease-in-out infinite;">
+                  <span class="text-6xl md:text-8xl">💕</span>
+                </div>
+              </div>
+
+              <h1 style="animation: fadeSlideIn 1s ease 0.3s both;" class="font-dancing text-5xl md:text-7xl lg:text-8xl font-bold mb-4">
+                <span class="text-shimmer">Happy Girlfriend Day</span>
+              </h1>
+
+              <div style="animation: fadeSlideIn 1s ease 0.6s both;" class="mb-6">
+                <p class="font-playfair text-xl md:text-3xl text-gray-600 italic">
+                  August 1st — A day to celebrate
+                </p>
+                <p class="font-playfair text-2xl md:text-4xl text-rose-500 font-semibold mt-2">
+                  The Most Beautiful Person in My Life
+                </p>
+              </div>
+
+              <p style="animation: fadeSlideIn 1s ease 0.9s both;" class="text-gray-500 text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+                Every love story is beautiful, but ours is my favorite.
+                Today is all about you — the one who makes every day brighter,
+                every moment special, and every heartbeat meaningful.
+              </p>
+
+              <div style="animation: fadeSlideIn 1s ease 1.2s both;" class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="#/love-letter" class="btn btn-primary">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                  Read My Love Letter
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                </a>
+                <a href="#/gift" class="btn btn-secondary">
+                  ✨ Open Your Gift
+                </a>
+              </div>
+
+              <div class="absolute bottom-10 left-1/2 -translate-x-1/2 bounce-arrow" style="animation: fadeIn 1s ease 2s both;">
+                <div class="flex flex-col items-center gap-2 text-rose-400">
+                  <span class="text-sm font-medium">Scroll to explore</span>
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Featured Image Section -->
+          <section class="relative py-20 bg-white overflow-hidden">
+            <div class="absolute top-0 left-0 right-0 h-32" style="background: linear-gradient(to bottom, var(--rose-50), transparent);"></div>
+            <div class="max-w-6xl mx-auto px-4">
+              <div class="text-center mb-16" style="animation: fadeSlideIn 0.8s ease forwards;">
+                <span class="text-4xl mb-4 block">🌹</span>
+                <h2 class="font-playfair text-3xl md:text-5xl font-bold text-gray-800 mb-4">
+                  You Are My <span class="text-rose-500">Everything</span>
+                </h2>
+                <p class="text-gray-500 max-w-xl mx-auto text-lg">
+                  In a world full of temporary things, you are a perpetual feeling
+                </p>
+              </div>
+
+              <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div class="relative group" style="animation: fadeSlideIn 0.8s ease forwards;">
+                  <div class="absolute -inset-2 rounded-2xl opacity-30 group-hover:opacity-50 transition-opacity" style="background: linear-gradient(to right, var(--rose-400), var(--pink-400)); filter: blur(20px);"></div>
+                  <img src="https://images.pexels.com/photos/14839193/pexels-photo-14839193.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" alt="Romantic sunset couple" class="relative rounded-2xl w-full h-80 md:h-96 object-cover shadow-xl">
+                  <div class="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg">
+                    <p class="font-dancing text-xl text-rose-600">"You are my today and all of my tomorrows" 💕</p>
+                  </div>
+                </div>
+
+                <div class="space-y-6" style="animation: fadeSlideIn 0.8s ease 0.2s both;">
+                  ${[
+                    { icon: '💖', title: 'Unconditional Love', text: 'My love for you knows no boundaries, no conditions, and no end.' },
+                    { icon: '🌟', title: 'My Guiding Star', text: 'You light up even my darkest days with your beautiful smile.' },
+                    { icon: '🦋', title: 'My Safe Place', text: 'In your arms, I found my home, my peace, and my happiness.' },
+                  ].map((item, i) => `
+                    <div class="flex gap-4 items-start rounded-xl p-5 love-card cursor-default" style="background: linear-gradient(to right, var(--rose-50), var(--pink-50));">
+                      <span class="text-3xl flex-shrink-0">${item.icon}</span>
+                      <div>
+                        <h3 class="font-playfair font-bold text-gray-800 text-lg">${item.title}</h3>
+                        <p class="text-gray-500 mt-1">${item.text}</p>
+                      </div>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Quote Section -->
+          <section class="relative py-24 overflow-hidden">
+            <div class="absolute inset-0">
+              <img src="https://images.pexels.com/photos/12071172/pexels-photo-12071172.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" alt="couple seaside" class="w-full h-full object-cover">
+              <div class="absolute inset-0" style="background: linear-gradient(to right, rgba(136,19,55,0.8), rgba(131,22,67,0.7));"></div>
+            </div>
+            <div class="relative z-10 max-w-4xl mx-auto text-center px-4">
+              <div style="animation: scaleIn 0.8s ease forwards;">
+                <svg class="w-10 h-10 text-amber-300 mx-auto mb-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <blockquote class="font-playfair text-2xl md:text-4xl lg:text-5xl text-white italic leading-relaxed mb-8">
+                  "I fell in love the way you fall asleep: slowly, and then all at once."
+                </blockquote>
+                <div class="w-20 h-1 mx-auto rounded-full mb-4" style="background: linear-gradient(to right, var(--rose-400), var(--amber-400));"></div>
+                <p class="text-rose-200 font-medium text-lg">— John Green</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Explore Cards Section -->
+          <section class="py-20" style="background: linear-gradient(to bottom, white, var(--rose-50));">
+            <div class="max-w-6xl mx-auto px-4">
+              <div class="text-center mb-16" style="animation: fadeSlideIn 0.8s ease forwards;">
+                <span class="text-4xl mb-4 block">✨</span>
+                <h2 class="font-playfair text-3xl md:text-5xl font-bold text-gray-800 mb-4">
+                  Explore More <span class="text-rose-500">Love</span>
+                </h2>
+                <p class="text-gray-500 max-w-xl mx-auto text-lg">
+                  Each page holds something special, made with love just for you
+                </p>
+              </div>
+
+              <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                ${[
+                  { path: '/love-letter', emoji: '💌', title: 'Love Letter', desc: 'Words from my heart to yours', color: 'from-rose-400 to-pink-500' },
+                  { path: '/memories', emoji: '📸', title: 'Our Memories', desc: 'Beautiful moments we share', color: 'from-pink-400 to-purple-500' },
+                  { path: '/reasons', emoji: '💝', title: 'Reasons I Love You', desc: '50 reasons you are amazing', color: 'from-purple-400 to-rose-500' },
+                  { path: '/promises', emoji: '🤞', title: 'My Promises', desc: 'Forever and always', color: 'from-rose-500 to-amber-400' },
+                  { path: '/gift', emoji: '🎁', title: 'Special Gift', desc: 'Something just for you', color: 'from-amber-400 to-rose-500' },
+                ].map((card, i) => `
+                  <a href="#${card.path}" class="block" style="animation: fadeSlideIn 0.6s ease ${i * 0.15}s both;">
+                    <div class="relative overflow-hidden rounded-2xl bg-white shadow-lg p-8 love-card group cursor-pointer border border-rose-100" style="box-shadow: 0 4px 14px rgba(244,63,94,0.1);">
+                      <div class="absolute top-0 right-0 w-32 h-32 rounded-bl-full opacity-10 group-hover:opacity-20 transition-opacity" style="background: linear-gradient(to bottom left, var(--rose-400), var(--pink-500));"></div>
+                      <span class="text-5xl mb-4 block">${card.emoji}</span>
+                      <h3 class="font-playfair text-xl font-bold text-gray-800 mb-2">${card.title}</h3>
+                      <p class="text-gray-500 mb-4">${card.desc}</p>
+                      <div class="inline-flex items-center gap-2 text-sm font-semibold bg-clip-text text-transparent" style="background: linear-gradient(to right, var(--rose-400), var(--pink-500)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                        Explore <svg class="w-4 h-4 text-rose-500 group-hover:translate-x-1 transition-transform" style="-webkit-text-fill-color: var(--rose-500);" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                      </div>
+                    </div>
+                  </a>
+                `).join('')}
+              </div>
+            </div>
+          </section>
+
+          <!-- Footer love note -->
+          <section class="py-16 text-white text-center" style="background: linear-gradient(to right, var(--rose-500), var(--pink-500));">
+            <div class="max-w-2xl mx-auto px-4" style="animation: fadeIn 0.8s ease forwards;">
+              <div class="text-5xl mb-6" style="animation: scale 1.5s ease-in-out infinite;">💗</div>
+              <h3 class="font-dancing text-3xl md:text-4xl mb-4">Made with all my love, just for you</h3>
+              <p class="text-rose-100 text-lg">Happy Girlfriend Day, my love. You deserve the world and more. 🌍✨</p>
+            </div>
+          </section>
+        </div>
+      `,
+
+      '/love-letter': `
+        <div class="min-h-screen pt-20 relative overflow-hidden" style="background: linear-gradient(to bottom right, var(--rose-50), var(--pink-50), var(--purple-50));">
+          <div class="absolute inset-0 overflow-hidden pointer-events-none">
+            ${Array.from({length: 12}, (_, i) => {
+              const emojis = ['🌸', '💌', '✨', '🦋', '💗', '🌹'];
+              return `<div class="absolute text-2xl" style="left: ${Math.random() * 100}%; top: ${Math.random() * 100}%; animation: floatHeart ${4 + Math.random() * 3}s ease-in-out infinite; animation-delay: ${Math.random() * 3}s;">${emojis[i % 6]}</div>`;
+            }).join('')}
+          </div>
+
+          <div class="max-w-4xl mx-auto px-4 py-12 relative z-10">
+            <div class="text-center mb-12" style="animation: fadeSlideIn 0.8s ease forwards;">
+              <div class="inline-block mb-4" style="animation: rotate 3s ease-in-out infinite;">
+                <svg class="w-12 h-12 text-rose-400 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+              </div>
+              <h1 class="font-dancing text-5xl md:text-7xl font-bold text-shimmer mb-4">A Letter From My Heart</h1>
+              <p class="font-playfair text-xl text-gray-500 italic">Every word written with love, sealed with a kiss 💋</p>
+            </div>
+
+            <div class="flex justify-center">
+              <div id="letter-container">
+                <div id="envelope" class="cursor-pointer" style="animation: scaleIn 0.6s ease forwards;">
+                  <div class="relative bg-gradient-to-br from-rose-100 to-pink-100 rounded-2xl p-16 md:p-24 shadow-2xl border-2 border-rose-200" style="box-shadow: 0 25px 50px -12px rgba(244,63,94,0.25); animation: pulseGlow 3s ease-in-out infinite;">
+                    <div class="absolute top-0 left-0 right-0 h-1/2 rounded-t-2xl" style="background: linear-gradient(to bottom right, var(--rose-200), var(--pink-200)); clip-path: polygon(0 0, 50% 60%, 100% 0);"></div>
+                    <div class="relative z-10 text-center">
+                      <div style="animation: scale 2s ease-in-out infinite;">
+                        <svg class="w-20 h-20 text-rose-500 mx-auto mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                      </div>
+                      <p class="font-dancing text-2xl md:text-3xl text-rose-600 mb-2">You have a love letter! 💕</p>
+                      <p class="text-rose-400 text-lg">Click to open ✉️</p>
+                    </div>
+                    <div class="absolute bottom-6 right-6">
+                      <div class="w-16 h-16 rounded-full flex items-center justify-center shadow-lg" style="background: linear-gradient(to bottom right, var(--red-400), var(--rose-600));">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="letter-content" style="display: none; animation: fadeSlideIn 0.8s ease forwards;">
+                  <div class="relative bg-white rounded-2xl shadow-2xl overflow-hidden" style="box-shadow: 0 25px 50px -12px rgba(244,63,94,0.15);">
+                    <div class="h-2" style="background: linear-gradient(to right, var(--rose-400), var(--pink-400), var(--purple-400));"></div>
+                    <div class="p-8 md:p-12" style="background: repeating-linear-gradient(transparent, transparent 31px, var(--pink-100) 31px, var(--pink-100) 32px);">
+                      <div class="flex justify-center mb-8" style="animation: scaleIn 0.5s ease forwards;">
+                        <svg class="w-12 h-12 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                      </div>
+                      <div class="font-playfair text-gray-700 leading-relaxed space-y-6 text-base md:text-lg">
+                        <p class="font-dancing text-3xl text-rose-500">My Dearest Love,</p>
+                        <p>On this special Girlfriend Day, I want to take a moment to tell you something I don't say nearly enough — <span class="text-rose-500 font-semibold">you are the most incredible person I have ever known.</span></p>
+                        <p>From the moment you walked into my life, everything changed. The colors became brighter, the music became sweeter, and my heart found its reason to beat. You didn't just enter my world — <em>you became my world.</em></p>
+                        <p>I love the way your eyes light up when you laugh. I love how your hand fits perfectly in mine, like it was designed that way. I love your kindness, your strength, your beautiful soul that makes everyone around you feel special.</p>
+                        <p>Every day with you is a gift I never want to take for granted. You are my first thought in the morning and my last wish at night. You are the reason I believe in forever, and the proof that <span class="text-rose-500 font-semibold">fairy tales can come true.</span></p>
+                        <p>Thank you for loving me, for choosing me, and for being you. I promise to spend every day making you feel as special as you make me feel. You are not just my girlfriend — you are my best friend, my confidante, my home, and my heart's greatest treasure.</p>
+                        <div class="pt-4">
+                          <p class="font-dancing text-2xl text-rose-500 mb-2">Forever and always yours,</p>
+                          <p class="font-dancing text-3xl text-rose-600 font-bold">With All My Love 💕</p>
+                        </div>
+                        <div class="flex justify-center pt-6">
+                          <div class="flex items-center gap-2 px-6 py-3 rounded-full border border-rose-200" style="background: linear-gradient(to right, var(--rose-50), var(--pink-50));">
+                            <div style="animation: heartbeat 1.5s ease-in-out infinite;">
+                              <svg class="w-6 h-6 text-rose-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                            </div>
+                            <span class="text-rose-500 font-medium">Sealed with a kiss</span>
+                            <span class="text-lg">💋</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="h-2" style="background: linear-gradient(to right, var(--purple-400), var(--pink-400), var(--rose-400));"></div>
+                  </div>
+                  <div class="text-center mt-8">
+                    <button id="close-letter" class="text-rose-400 hover:text-rose-600 font-medium flex items-center gap-2 mx-auto transition-colors">
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                      Close letter
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-20 grid md:grid-cols-2 gap-6" style="animation: fadeSlideIn 0.8s ease 0.5s both;">
+              ${[
+                { quote: "You are my sun, my moon, and all my stars.", author: "E.E. Cummings", emoji: "🌙" },
+                { quote: "In all the world, there is no heart for me like yours.", author: "Maya Angelou", emoji: "💝" },
+                { quote: "I look at you and see the rest of my life in front of my eyes.", author: "Unknown", emoji: "👀" },
+                { quote: "You are the finest, loveliest, tenderest person I have ever known.", author: "F. Scott Fitzgerald", emoji: "🌹" },
+              ].map((item, i) => `
+                <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-rose-100 love-card" style="box-shadow: 0 4px 14px rgba(244,63,94,0.1);">
+                  <span class="text-3xl mb-3 block">${item.emoji}</span>
+                  <p class="font-playfair italic text-gray-700 text-lg mb-3">"${item.quote}"</p>
+                  <p class="text-rose-500 font-medium text-sm">— ${item.author}</p>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        </div>
+      `,
+
+      '/memories': `
+        <div class="min-h-screen pt-20" style="background: linear-gradient(to bottom right, var(--pink-50), var(--rose-50), var(--purple-50));">
+          <div class="max-w-6xl mx-auto px-4 pt-12 pb-8">
+            <div class="text-center mb-16" style="animation: fadeSlideIn 0.8s ease forwards;">
+              <div class="inline-block mb-4" style="animation: rotate 4s ease-in-out infinite;">
+                <svg class="w-14 h-14 text-rose-400 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              </div>
+              <h1 class="font-dancing text-5xl md:text-7xl font-bold text-shimmer mb-4">Our Beautiful Memories</h1>
+              <p class="font-playfair text-xl text-gray-500 italic max-w-2xl mx-auto">Every moment with you is a masterpiece painted by love, a treasure I hold close to my heart forever 📸</p>
+            </div>
+
+            <div class="h-1 max-w-md mx-auto mb-16 rounded-full" style="background: linear-gradient(to right, var(--rose-300), var(--pink-400), var(--purple-400)); animation: scaleX 1.5s ease forwards; transform-origin: left;"></div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+              ${[
+                { id: 1, image: 'https://images.pexels.com/photos/14839193/pexels-photo-14839193.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200', title: 'Our First Sunset Together', description: 'That magical evening when we watched the sunset paint the sky in shades of gold and rose. Your hand in mine, the world felt perfect.', date: 'Forever in my heart', location: 'Wherever you are', emoji: '🌅' },
+                { id: 2, image: 'https://images.pexels.com/photos/6410240/pexels-photo-6410240.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200', title: 'The Kiss That Changed Everything', description: 'Time stopped, the world disappeared, and it was just us. That kiss sealed our love story forever.', date: 'A timeless moment', location: 'In our own universe', emoji: '💋' },
+                { id: 3, image: 'https://images.pexels.com/photos/27254929/pexels-photo-27254929.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200', title: 'Walking Hand in Hand', description: 'Every step with you is an adventure. Every path becomes beautiful when I walk it with you by my side.', date: 'Every single day', location: 'Down every road together', emoji: '🚶‍♂️🚶‍♀️' },
+                { id: 4, image: 'https://images.pexels.com/photos/9497059/pexels-photo-9497059.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200', title: 'Sunshine & Happiness', description: 'You are my sunshine on cloudy days. Walking together under the warm sun, laughing at everything and nothing.', date: 'Sun-kissed days', location: 'Under our favorite sky', emoji: '☀️' },
+                { id: 5, image: 'https://images.pexels.com/photos/10941877/pexels-photo-10941877.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200', title: 'Park Adventures', description: 'Those lazy afternoons at the park, sharing secrets, dreams, and ice cream. Simple moments that mean everything.', date: 'Lazy afternoons', location: 'Our favorite park', emoji: '🌳' },
+                { id: 6, image: 'https://images.pexels.com/photos/12130177/pexels-photo-12130177.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200', title: 'Romantic Dinner Nights', description: 'Candlelight, wine, your smile across the table — every dinner with you feels like the most special occasion.', date: 'Every special night', location: 'Our romantic spot', emoji: '🕯️' },
+              ].map((memory, i) => `
+                <div class="group cursor-pointer" style="animation: fadeSlideIn 0.6s ease ${i * 0.1}s both;" onclick="showMemoryModal(${memory.id})">
+                  <div class="relative bg-white rounded-2xl overflow-hidden shadow-lg border border-rose-100 love-card" style="box-shadow: 0 4px 14px rgba(244,63,94,0.1);">
+                    <div class="relative h-56 overflow-hidden">
+                      <img src="${memory.image}" alt="${memory.title}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500" style="background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);"></div>
+                      <div class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm rounded-full w-12 h-12 flex items-center justify-center shadow-md text-2xl">${memory.emoji}</div>
+                      <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500">
+                        <div class="bg-white/90 backdrop-blur-sm rounded-full px-6 py-3 shadow-lg flex items-center gap-2">
+                          <svg class="w-4 h-4 text-rose-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                          <span class="text-rose-600 font-medium text-sm">View Memory</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-5">
+                      <h3 class="font-playfair font-bold text-lg text-gray-800 mb-2 group-hover:text-rose-500 transition-colors">${memory.title}</h3>
+                      <p class="text-gray-500 text-sm line-clamp-2 mb-3">${memory.description}</p>
+                      <div class="flex items-center gap-4 text-xs text-gray-400">
+                        <span class="flex items-center gap-1"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg> ${memory.date}</span>
+                        <span class="flex items-center gap-1"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg> ${memory.location}</span>
+                      </div>
+                    </div>
+                    <div class="h-1 origin-left transition-transform duration-500 group-hover:scale-x-100" style="background: linear-gradient(to right, var(--rose-400), var(--pink-400)); transform: scaleX(0);"></div>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+
+            <div class="text-center mt-16 mb-8" style="animation: fadeIn 0.8s ease forwards;">
+              <div class="inline-flex items-center gap-3 bg-white/80 backdrop-blur-sm rounded-full px-8 py-4 shadow-lg border border-rose-100" style="box-shadow: 0 4px 14px rgba(244,63,94,0.1);">
+                <div style="animation: heartbeat 1.5s ease-in-out infinite;">
+                  <svg class="w-5 h-5 text-rose-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                </div>
+                <span class="text-gray-600 font-medium">And <span class="text-rose-500 font-bold">millions</span> more memories to create together...</span>
+                <span class="text-xl">∞</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Memory Modal -->
+        <div id="memory-modal" class="modal-overlay" style="display: none;" onclick="closeMemoryModal()">
+          <div class="modal-content" onclick="event.stopPropagation()">
+            <button onclick="closeMemoryModal()" class="absolute top-4 right-4 z-10 bg-white/90 backdrop-blur-sm rounded-full p-2 shadow-md hover:bg-rose-50 transition-colors">
+              <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+            <div id="modal-image" class="relative h-64 md:h-80">
+              <img id="modal-img" src="" alt="" class="w-full h-full object-cover">
+              <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,0.4), transparent);"></div>
+              <div id="modal-emoji" class="absolute bottom-4 left-4 text-4xl"></div>
+            </div>
+            <div class="p-8">
+              <h2 id="modal-title" class="font-playfair text-2xl md:text-3xl font-bold text-gray-800 mb-4"></h2>
+              <p id="modal-desc" class="text-gray-600 leading-relaxed text-lg mb-6"></p>
+              <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+                <span id="modal-date" class="flex items-center gap-2 px-4 py-2 rounded-full" style="background: var(--rose-50);"></span>
+                <span id="modal-location" class="flex items-center gap-2 px-4 py-2 rounded-full" style="background: var(--rose-50);"></span>
+              </div>
+              <div class="mt-6 flex items-center gap-2 text-rose-500">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                <span class="font-dancing text-xl">This memory is forever ours</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      `,
+
+      '/reasons': `
+        <div class="min-h-screen pt-20 relative overflow-hidden" style="background: linear-gradient(to bottom right, var(--rose-50), var(--pink-50), var(--purple-50));">
+          <div class="absolute top-20 right-10 w-72 h-72 rounded-full" style="background: rgba(254,205,211,0.2); filter: blur(64px);"></div>
+          <div class="absolute bottom-20 left-10 w-96 h-96 rounded-full" style="background: rgba(249,168,212,0.2); filter: blur(64px);"></div>
+          <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full" style="background: rgba(233,213,255,0.1); filter: blur(64px);"></div>
+
+          <div class="max-w-5xl mx-auto px-4 py-12 relative z-10">
+            <div class="text-center mb-16" style="animation: fadeSlideIn 0.8s ease forwards;">
+              <div class="inline-block mb-4" style="animation: scale 3s ease-in-out infinite; transform: rotate(0deg);">
+                <span class="text-6xl">💝</span>
+              </div>
+              <h1 class="font-dancing text-5xl md:text-7xl font-bold text-shimmer mb-4">50 Reasons I Love You</h1>
+              <p class="font-playfair text-xl text-gray-500 italic max-w-2xl mx-auto">Because you deserve to know exactly why you are the most amazing person in my universe ✨</p>
+
+              <div class="mt-8 inline-flex items-center gap-3 bg-white/80 backdrop-blur-sm rounded-full px-8 py-4 shadow-lg border border-rose-100" style="box-shadow: 0 4px 14px rgba(244,63,94,0.1); animation: scaleIn 0.5s ease 0.5s both;">
+                <svg class="w-5 h-5 text-rose-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                <span class="text-gray-600 font-medium"><span class="text-rose-500 font-bold text-2xl">50</span> reasons and counting...</span>
+                <svg class="w-5 h-5 text-amber-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2z"/></svg>
+              </div>
+            </div>
+
+            <div id="reasons-container" class="grid sm:grid-cols-2 gap-4 md:gap-5">
+              ${[
+                { emoji: '😊', text: 'Your smile can light up the darkest room' },
+                { emoji: '💪', text: 'You are the strongest person I know' },
+                { emoji: '😂', text: 'You make me laugh until my stomach hurts' },
+                { emoji: '🥰', text: 'The way you look at me makes me feel invincible' },
+                { emoji: '🤗', text: 'Your hugs feel like home' },
+                { emoji: '🧠', text: 'Your intelligence amazes me every day' },
+                { emoji: '💃', text: 'The way you dance when nobody is watching' },
+                { emoji: '👩‍🍳', text: 'You put love into everything you do' },
+                { emoji: '🌸', text: 'Your kindness makes the world a better place' },
+                { emoji: '🎵', text: 'The way you sing along to our favorite songs' },
+                { emoji: '👀', text: 'Your beautiful eyes that tell a thousand stories' },
+                { emoji: '🤝', text: 'You always support my crazy dreams' },
+                { emoji: '💋', text: 'Every kiss from you feels like the first' },
+                { emoji: '🌈', text: 'You see beauty in everything and everyone' },
+                { emoji: '🎨', text: 'Your creativity inspires me' },
+                { emoji: '🦸‍♀️', text: 'You are my personal superhero' },
+                { emoji: '📚', text: 'The way you get lost in a good book' },
+                { emoji: '🌻', text: 'You make ordinary moments extraordinary' },
+                { emoji: '💕', text: 'Your love makes me a better person' },
+                { emoji: '🌙', text: 'Late night talks with you are my favorite' },
+              ].map((reason, i) => `
+                <div class="group" style="animation: fadeSlideIn 0.5s ease ${(i % 6) * 0.08}s both;">
+                  <div class="relative bg-white/80 backdrop-blur-sm rounded-2xl p-5 shadow-md border border-rose-100/50 overflow-hidden transition-all duration-300 hover:shadow-lg" style="box-shadow: 0 4px 6px rgba(244,63,94,0.1);">
+                    <div class="absolute top-3 right-3 w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold" style="background: linear-gradient(to bottom right, var(--rose-100), var(--pink-100)); color: var(--rose-400);">#${i + 1}</div>
+                    <div class="absolute bottom-0 left-0 right-0 h-1 origin-left transition-transform duration-500 group-hover:scale-x-100" style="background: linear-gradient(to right, var(--rose-400), var(--pink-400)); transform: scaleX(0);"></div>
+                    <div class="flex items-start gap-4">
+                      <span class="text-3xl flex-shrink-0 mt-0.5">${reason.emoji}</span>
+                      <div class="flex-1">
+                        <p class="text-gray-700 font-medium leading-relaxed">${reason.text}</p>
+                      </div>
+                      <button class="flex-shrink-0 mt-1" onclick="toggleLike(this, ${i})">
+                        <svg class="w-5 h-5 text-gray-300 hover:text-rose-300 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+
+            <div id="more-reasons" class="grid sm:grid-cols-2 gap-4 md:gap-5 mt-5" style="display: none;">
+              ${[
+                { emoji: '☕', text: 'Morning coffee hits different when you are beside me' },
+                { emoji: '🎭', text: 'Your silly faces always cheer me up' },
+                { emoji: '🏠', text: 'You make anywhere feel like home' },
+                { emoji: '🌟', text: 'You shine brighter than any star' },
+                { emoji: '🎶', text: 'Your voice is my favorite melody' },
+                { emoji: '🤲', text: 'The gentle way you hold my hand' },
+                { emoji: '💌', text: 'You remember the little things that matter' },
+                { emoji: '🧸', text: 'Your playful spirit keeps life exciting' },
+                { emoji: '🌺', text: 'You make me believe in fairy tales' },
+                { emoji: '🔥', text: 'Your passion for life is contagious' },
+                { emoji: '🦋', text: 'You give me butterflies every single day' },
+                { emoji: '🏋️‍♀️', text: 'Your determination inspires me to be better' },
+                { emoji: '🎯', text: 'You always know exactly what to say' },
+                { emoji: '🌊', text: 'Your calm presence soothes my anxious soul' },
+                { emoji: '💎', text: 'You are a rare gem in this world' },
+                { emoji: '🎪', text: 'Life is never boring with you around' },
+                { emoji: '🦄', text: 'You are one in a billion — truly unique' },
+                { emoji: '🎁', text: 'Every day with you is a gift' },
+                { emoji: '🏆', text: 'Being loved by you is my greatest achievement' },
+                { emoji: '📸', text: 'You make every photo beautiful' },
+                { emoji: '🍕', text: 'Sharing pizza with you is pure happiness' },
+                { emoji: '🌄', text: 'You give me something to look forward to every day' },
+                { emoji: '👑', text: 'You deserve to be treated like the queen you are' },
+                { emoji: '🎀', text: 'Your attention to detail never ceases to amaze me' },
+                { emoji: '🌿', text: 'You help me grow into a better human' },
+                { emoji: '💫', text: 'Your dreams become my dreams' },
+                { emoji: '🎹', text: 'You bring harmony into my chaotic life' },
+                { emoji: '🌹', text: 'Your beauty — inside and out — takes my breath away' },
+                { emoji: '🧭', text: 'You are my compass when I feel lost' },
+                { emoji: '♾️', text: 'I could list infinite reasons and still not cover them all' },
+              ].map((reason, i) => `
+                <div class="group" style="animation: fadeSlideIn 0.5s ease ${(i % 6) * 0.08}s both;">
+                  <div class="relative bg-white/80 backdrop-blur-sm rounded-2xl p-5 shadow-md border border-rose-100/50 overflow-hidden transition-all duration-300 hover:shadow-lg" style="box-shadow: 0 4px 6px rgba(244,63,94,0.1);">
+                    <div class="absolute top-3 right-3 w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold" style="background: linear-gradient(to bottom right, var(--rose-100), var(--pink-100)); color: var(--rose-400);">#${i + 21}</div>
+                    <div class="absolute bottom-0 left-0 right-0 h-1 origin-left transition-transform duration-500 group-hover:scale-x-100" style="background: linear-gradient(to right, var(--rose-400), var(--pink-400)); transform: scaleX(0);"></div>
+                    <div class="flex items-start gap-4">
+                      <span class="text-3xl flex-shrink-0 mt-0.5">${reason.emoji}</span>
+                      <div class="flex-1">
+                        <p class="text-gray-700 font-medium leading-relaxed">${reason.text}</p>
+                      </div>
+                      <button class="flex-shrink-0 mt-1" onclick="toggleLike(this, ${i + 20})">
+                        <svg class="w-5 h-5 text-gray-300 hover:text-rose-300 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+
+            <div class="text-center mt-10">
+              <button id="show-all-btn" class="inline-flex items-center gap-2 px-8 py-4 text-white rounded-full font-semibold shadow-lg transition-shadow" style="background: linear-gradient(to right, var(--rose-500), var(--pink-500)); box-shadow: 0 4px 14px rgba(244,63,94,0.3);" onclick="toggleShowAll()">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                Show All 50 Reasons
+              </button>
+            </div>
+
+            <div class="mt-20 text-center" style="animation: fadeSlideIn 0.8s ease forwards;">
+              <div class="rounded-3xl p-10 md:p-14 text-white relative overflow-hidden" style="background: linear-gradient(to right, var(--rose-500), var(--pink-500)); box-shadow: 0 25px 50px -12px rgba(244,63,94,0.3);">
+                <div class="absolute inset-0 overflow-hidden">
+                  ${Array.from({length: 8}, (_, i) => `<div class="absolute text-white/10 text-6xl" style="left: ${i * 14}%; top: ${(i * 20) % 80}%; animation: floatHeart ${5 + i}s ease-in-out infinite; animation-delay: ${i * 0.5}s;">♥</div>`).join('')}
+                </div>
+                <div class="relative z-10">
+                  <div class="text-5xl mb-6" style="animation: scale 1.5s ease-in-out infinite;">💗</div>
+                  <h3 class="font-dancing text-3xl md:text-4xl mb-4">The truth is...</h3>
+                  <p class="font-playfair text-lg md:text-xl italic max-w-xl mx-auto leading-relaxed">I could write a million reasons and it still wouldn't be enough. You are the reason my heart beats, the reason I smile, and the reason I believe in love. <strong>I love everything about you.</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      `,
+
+      '/promises': `
+        <div class="min-h-screen pt-20 relative overflow-hidden" style="background: linear-gradient(to bottom right, var(--purple-50), var(--rose-50), var(--pink-50));">
+          <div class="absolute inset-0 pointer-events-none">
+            <div class="absolute top-0 right-0 w-96 h-96 rounded-full" style="background: rgba(254,205,211,0.2); filter: blur(64px);"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 rounded-full" style="background: rgba(233,213,255,0.2); filter: blur(64px);"></div>
+          </div>
+
+          <div class="max-w-6xl mx-auto px-4 py-12 relative z-10">
+            <div class="text-center mb-16" style="animation: fadeSlideIn 0.8s ease forwards;">
+              <div class="inline-block mb-4" style="animation: bounce 2s ease-in-out infinite;">
+                <span class="text-6xl">🤞</span>
+              </div>
+              <h1 class="font-dancing text-5xl md:text-7xl font-bold text-shimmer mb-4">My Promises to You</h1>
+              <p class="font-playfair text-xl text-gray-500 italic max-w-2xl mx-auto">These are not just words — they are the vows of my heart, written in the ink of my soul, sealed with my eternal love 💍</p>
+            </div>
+
+            <div class="flex justify-center mb-16">
+              <div class="relative">
+                <div class="text-8xl" style="animation: rotate 4s ease-in-out infinite;">🤝</div>
+                <div class="absolute -top-2 -right-2 text-2xl" style="animation: scale 2s ease-in-out infinite;">✨</div>
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 md:gap-8">
+              ${[
+                { emoji: '💕', iconEmoji: '❤️', title: 'To Love You Unconditionally', description: 'No matter what life throws at us, my love for you will never waver. Through every storm and every sunshine, I will love you with all my heart.', color: 'from-rose-400 to-pink-500' },
+                { emoji: '🛡️', iconEmoji: '🛡️', title: 'To Always Protect You', description: 'I promise to be your shield, your safe haven. I will always stand between you and anything that tries to dim your light.', color: 'from-blue-400 to-indigo-500' },
+                { emoji: '⭐', iconEmoji: '⭐', title: 'To Make You Feel Special Every Day', description: 'You deserve to feel like the most important person in the world because that is exactly what you are to me. Every single day.', color: 'from-amber-400 to-orange-500' },
+                { emoji: '☀️', iconEmoji: '☀️', title: 'To Be Your Sunshine', description: 'On your darkest days, I promise to be the light that guides you. I will always try to bring warmth and joy into your life.', color: 'from-yellow-400 to-amber-500' },
+                { emoji: '🌙', iconEmoji: '🌙', title: 'To Never Stop Choosing You', description: 'Every morning I wake up, I choose you. Every night before I sleep, I choose you. This is my forever promise — to always choose you.', color: 'from-purple-400 to-indigo-500' },
+                { emoji: '☕', iconEmoji: '☕', title: 'To Cherish the Little Moments', description: 'The morning coffees, the quiet evenings, the random giggles — I promise to treasure every small moment with you as if it is the greatest gift.', color: 'from-amber-500 to-rose-500' },
+                { emoji: '🌂', iconEmoji: '🌂', title: 'To Stand By You Through Everything', description: 'Rain or shine, good times or bad, I will be right there beside you. You will never have to face anything alone.', color: 'from-teal-400 to-cyan-500' },
+                { emoji: '♾️', iconEmoji: '♾️', title: 'To Love You Forever', description: 'My love for you has no expiry date. It is infinite, eternal, and everlasting. Today, tomorrow, and for all the days that follow.', color: 'from-rose-500 to-purple-500' },
+              ].map((promise, i) => `
+                <div class="group" style="animation: fadeSlideIn 0.6s ease ${i * 0.1}s both;">
+                  <div class="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg border border-white/50 overflow-hidden transition-all duration-500 hover:shadow-xl" style="box-shadow: 0 4px 14px rgba(244,63,94,0.1);" onmouseenter="this.style.boxShadow='0 20px 40px rgba(244,63,94,0.2)'" onmouseleave="this.style.boxShadow='0 4px 14px rgba(244,63,94,0.1)'">
+                    <div class="absolute top-4 right-4 font-dancing text-4xl text-rose-100 font-bold group-hover:text-rose-200 transition-colors">${String(i + 1).padStart(2, '0')}</div>
+                    <div class="w-16 h-16 rounded-2xl flex items-center justify-center text-white mb-5 shadow-lg text-3xl" style="background: linear-gradient(to bottom right, ${promise.color.includes('rose') ? 'var(--rose-400)' : promise.color.includes('blue') ? '#60a5fa' : promise.color.includes('amber') ? 'var(--amber-400)' : promise.color.includes('purple') ? 'var(--purple-400)' : promise.color.includes('teal') ? '#2dd4bf' : 'var(--rose-400)'}, ${promise.color.includes('pink') ? 'var(--pink-500)' : promise.color.includes('indigo') ? '#6366f1' : promise.color.includes('orange') ? '#f97316' : promise.color.includes('amber') ? 'var(--amber-500)' : promise.color.includes('cyan') ? '#06b6d4' : promise.color.includes('purple') ? 'var(--purple-500)' : 'var(--pink-500)'});">${promise.iconEmoji}</div>
+                    <div class="flex items-start gap-2 mb-3">
+                      <h3 class="font-playfair text-xl font-bold text-gray-800 group-hover:text-rose-600 transition-colors">${promise.title}</h3>
+                      <span class="text-xl flex-shrink-0">${promise.emoji}</span>
+                    </div>
+                    <p class="text-gray-500 leading-relaxed">${promise.description}</p>
+                    <div class="mt-6 h-1 rounded-full" style="background: linear-gradient(to right, ${promise.color.includes('rose') ? 'var(--rose-400)' : promise.color.includes('blue') ? '#60a5fa' : promise.color.includes('amber') ? 'var(--amber-400)' : promise.color.includes('purple') ? 'var(--purple-400)' : promise.color.includes('teal') ? '#2dd4bf' : 'var(--rose-400)'}, ${promise.color.includes('pink') ? 'var(--pink-500)' : promise.color.includes('indigo') ? '#6366f1' : promise.color.includes('orange') ? '#f97316' : promise.color.includes('amber') ? 'var(--amber-500)' : promise.color.includes('cyan') ? '#06b6d4' : promise.color.includes('purple') ? 'var(--purple-500)' : 'var(--pink-500)'}); animation: scaleX 0.8s ease ${i * 0.1 + 0.3}s both; transform-origin: left;"></div>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+
+            <div class="mt-20" style="animation: fadeSlideIn 0.8s ease forwards;">
+              <div class="rounded-3xl p-1" style="background: linear-gradient(to right, var(--rose-500), var(--pink-500), var(--purple-500));">
+                <div class="bg-white rounded-3xl p-10 md:p-16 text-center relative overflow-hidden">
+                  <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 border-4 border-rose-100 rounded-full opacity-20" style="animation: slowRotate 20s linear infinite;"></div>
+                  <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 border-2 border-pink-100 rounded-full opacity-10" style="animation: slowRotate 20s linear infinite; animation-direction: reverse;"></div>
+                  <div class="relative z-10">
+                    <div class="text-6xl mb-6" style="animation: scale 3s ease-in-out infinite; transform: rotate(0deg);">💍</div>
+                    <h3 class="font-playfair text-2xl md:text-4xl font-bold text-gray-800 mb-4">A Sealed Promise</h3>
+                    <p class="font-playfair text-gray-500 text-lg max-w-xl mx-auto leading-relaxed italic">"I promise to love you in all your forms, moods, and expressions. To laugh with you in good times, hold you in bad times, and grow with you for a lifetime. This is my solemn promise."</p>
+                    <div class="mt-8 flex items-center justify-center gap-3">
+                      <div style="animation: heartbeat 1.5s ease-in-out infinite;">
+                        <svg class="w-6 h-6 text-rose-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                      </div>
+                      <span class="font-dancing text-2xl text-rose-500">With all my love, forever yours</span>
+                      <div style="animation: heartbeat 1.5s ease-in-out infinite; animation-delay: 0.5s;">
+                        <svg class="w-6 h-6 text-rose-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      `,
+
+      '/gift': `
+        <div class="min-h-screen pt-20 relative overflow-hidden" style="background: linear-gradient(to bottom right, var(--amber-50), var(--rose-50), var(--pink-50));">
+          <div id="confetti-container" class="fixed inset-0 z-50 pointer-events-none overflow-hidden" style="display: none;"></div>
+          
+          <div class="absolute inset-0 pointer-events-none">
+            <div class="absolute top-20 left-10 w-72 h-72 rounded-full" style="background: rgba(253,211,77,0.15); filter: blur(64px);"></div>
+            <div class="absolute bottom-20 right-10 w-96 h-96 rounded-full" style="background: rgba(254,205,211,0.15); filter: blur(64px);"></div>
+          </div>
+
+          <div class="max-w-6xl mx-auto px-4 py-12 relative z-10">
+            <div class="text-center mb-12" style="animation: fadeSlideIn 0.8s ease forwards;">
+              <div class="inline-block mb-4" style="animation: rotate 3s ease-in-out infinite;">
+                <span class="text-6xl">🎁</span>
+              </div>
+              <h1 class="font-dancing text-5xl md:text-7xl font-bold text-shimmer mb-4">Your Special Gift</h1>
+              <p class="font-playfair text-xl text-gray-500 italic max-w-2xl mx-auto">I wrapped this with love, tied it with care, and filled it with all my heart 🎀</p>
+            </div>
+
+            <div class="flex justify-center mb-16">
+              <div id="gift-box">
+                <div id="wrapped-gift" class="cursor-pointer" style="animation: scaleIn 0.6s ease forwards;">
+                  <div class="relative">
+                    <div class="relative w-64 h-64 md:w-80 md:h-80">
+                      <div class="absolute bottom-0 w-full h-3/4 rounded-2xl shadow-2xl" style="background: linear-gradient(to bottom right, var(--rose-400), var(--pink-500)); box-shadow: 0 25px 50px rgba(244,63,94,0.3);">
+                        <div class="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-8" style="background: linear-gradient(to bottom, var(--amber-300), var(--amber-400)); box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);"></div>
+                        <div class="absolute top-1/2 -translate-y-1/2 left-0 right-0 h-8" style="background: linear-gradient(to right, var(--amber-300), var(--amber-400)); box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);"></div>
+                      </div>
+                      <div class="absolute top-0 w-full h-1/4" style="animation: bounce 2s ease-in-out infinite;">
+                        <div class="w-[110%] h-full -ml-[5%] rounded-xl shadow-lg" style="background: linear-gradient(to bottom right, var(--rose-500), var(--pink-600));"></div>
+                        <div class="absolute -top-6 left-1/2 -translate-x-1/2 text-5xl">🎀</div>
+                      </div>
+                      ${Array.from({length: 5}, (_, i) => `<div class="absolute text-2xl" style="top: ${[10, 30, 50, 70, 20][i]}%; left: ${[80, 15, 90, 5, 60][i]}%; animation: scale 1.5s ease-in-out infinite; animation-delay: ${i * 0.3}s;"><svg class="w-5 h-5 text-amber-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2z"/></svg></div>`).join('')}
+                    </div>
+                    <div class="mt-8 text-center" style="animation: bounce 1.5s ease-in-out infinite;">
+                      <p class="font-dancing text-2xl text-rose-500 mb-2">Tap to unwrap your gift! 🎉</p>
+                      <p class="text-gray-400 text-sm">Go ahead... it's all for you!</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="unwrapped-gift" style="display: none; animation: fadeSlideIn 0.8s ease forwards;">
+                  <div class="w-full max-w-4xl">
+                    <div class="text-center mb-12" style="animation: scaleIn 0.5s ease 0.5s both;">
+                      <div class="inline-flex items-center gap-3 text-white px-8 py-4 rounded-full shadow-lg mb-6" style="background: linear-gradient(to right, var(--rose-500), var(--pink-500));">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg>
+                        <span class="font-bold text-lg">Your Love Coupons!</span>
+                        <span class="text-2xl">💕</span>
+                      </div>
+                      <p class="text-gray-500 text-lg max-w-xl mx-auto">Each coupon is a promise of love, redeemable anytime your heart desires. No expiry date — because love never expires! 💖</p>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                      ${[
+                        { emoji: '🤗', title: 'Free Hug Coupon', desc: 'Redeemable anytime, anywhere, no expiry', color: 'from-rose-400 to-pink-500' },
+                        { emoji: '💋', title: 'Unlimited Kisses', desc: 'As many as you want, whenever you want', color: 'from-pink-400 to-purple-500' },
+                        { emoji: '🍕', title: 'Pizza Date Night', desc: 'Your choice of toppings, my treat!', color: 'from-amber-400 to-orange-500' },
+                        { emoji: '🎬', title: 'Movie Marathon', desc: 'You pick all the movies, I bring the snacks', color: 'from-blue-400 to-indigo-500' },
+                        { emoji: '💆‍♀️', title: 'Spa Day at Home', desc: 'Complete with massage, face mask & relaxation', color: 'from-teal-400 to-emerald-500' },
+                        { emoji: '🌹', title: 'Surprise Flower Delivery', desc: 'Beautiful flowers when you least expect them', color: 'from-red-400 to-rose-500' },
+                        { emoji: '📝', title: 'Love Letter on Demand', desc: 'A handwritten love letter whenever you need one', color: 'from-purple-400 to-pink-500' },
+                        { emoji: '🌅', title: 'Sunset Watch Together', desc: 'A perfect evening watching the sky with you', color: 'from-orange-400 to-rose-500' },
+                        { emoji: '🎵', title: 'Serenade Session', desc: 'I will sing your favorite song (effort counts!)', color: 'from-violet-400 to-purple-500' },
+                      ].map((coupon, i) => `
+                        <div class="cursor-pointer" style="animation: fadeSlideIn 0.6s ease ${0.8 + i * 0.1}s both;" onclick="toggleCoupon(this)">
+                          <div class="relative bg-white rounded-2xl overflow-hidden shadow-lg border-2 border-dashed border-rose-200 transition-colors hover:scale-105">
+                            <div class="h-2" style="background: linear-gradient(to right, ${coupon.color.replace('from-', '').split(' ')[0].replace('-400', '-400').replace('teal', '#2dd4bf').replace('emerald', '#10b981').replace('red', '#f87171').replace('orange', '#f97316').replace('violet', '#a78bfa')}, ${coupon.color.replace('to-', '').replace('-500', '-500')});"></div>
+                            <div class="absolute left-0 top-1/2 -translate-y-1/2 w-4 h-8 rounded-r-full" style="background: linear-gradient(to bottom right, var(--amber-50), var(--rose-50));"></div>
+                            <div class="absolute right-0 top-1/2 -translate-y-1/2 w-4 h-8 rounded-l-full" style="background: linear-gradient(to bottom right, var(--amber-50), var(--rose-50));"></div>
+                            <div class="p-6 text-center">
+                              <div class="text-5xl mb-3">${coupon.emoji}</div>
+                              <h3 class="font-playfair font-bold text-gray-800 text-lg mb-1">${coupon.title}</h3>
+                              <p class="text-gray-400 text-sm mb-3">${coupon.desc}</p>
+                              <div class="inline-flex items-center gap-1 px-4 py-1.5 rounded-full text-xs font-bold text-white" style="background: linear-gradient(to right, ${coupon.color.replace('from-', '').split(' ')[0]}, ${coupon.color.replace('to-', '')});">
+                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                                VALID FOREVER
+                              </div>
+                            </div>
+                            <div class="h-2" style="background: linear-gradient(to right, ${coupon.color.replace('from-', '').split(' ')[0]}, ${coupon.color.replace('to-', '')});"></div>
+                          </div>
+                        </div>
+                      `).join('')}
+                    </div>
+
+                    <div class="mt-12" style="animation: fadeSlideIn 0.6s ease 2s both;">
+                      <div class="rounded-3xl p-1" style="background: linear-gradient(to right, var(--rose-500), var(--pink-500), var(--purple-500)); box-shadow: 0 25px 50px rgba(244,63,94,0.3);">
+                        <div class="bg-white rounded-3xl p-8 md:p-12 text-center relative overflow-hidden">
+                          <div class="absolute inset-0 opacity-5">
+                            ${Array.from({length: 20}, (_, i) => `<span class="absolute text-4xl" style="left: ${(i * 20) % 100}%; top: ${Math.floor(i / 5) * 25}%;">♥</span>`).join('')}
+                          </div>
+                          <div class="relative z-10">
+                            <div class="flex justify-center gap-2 mb-4">
+                              <svg class="w-6 h-6 text-amber-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2z"/></svg>
+                              <svg class="w-6 h-6 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path></svg>
+                              <svg class="w-6 h-6 text-amber-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2z"/></svg>
+                            </div>
+                            <h3 class="font-dancing text-3xl md:text-5xl text-rose-500 mb-3">The Ultimate Gift</h3>
+                            <div class="w-20 h-1 mx-auto rounded-full mb-6" style="background: linear-gradient(to right, var(--rose-400), var(--pink-400));"></div>
+                            <div class="text-7xl mb-6" style="animation: scale 2s ease-in-out infinite;">💖</div>
+                            <p class="font-playfair text-xl md:text-2xl text-gray-700 italic max-w-lg mx-auto leading-relaxed mb-6">"My whole heart, for my whole life. That is the real gift — my love, my devotion, and my promise to always be yours."</p>
+                            <div class="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-rose-200" style="background: linear-gradient(to right, var(--rose-50), var(--pink-50));">
+                              <div style="animation: heartbeat 1.5s ease-in-out infinite;">
+                                <svg class="w-5 h-5 text-rose-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                              </div>
+                              <span class="text-rose-500 font-medium">No return policy — I am yours forever! 😘</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-12 mb-8" style="animation: fadeSlideIn 0.8s ease forwards;">
+              <h3 class="font-playfair text-2xl md:text-3xl font-bold text-gray-800 text-center mb-8">Fun Love Facts 💕</h3>
+              <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                ${[
+                  { stat: '∞', label: 'Times I think of you daily', emoji: '💭' },
+                  { stat: '24/7', label: 'Hours I love you', emoji: '⏰' },
+                  { stat: '100%', label: 'Devoted to you', emoji: '💯' },
+                  { stat: 'Forever', label: 'How long I will love you', emoji: '♾️' },
+                ].map((fact, i) => `
+                  <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 text-center shadow-md border border-rose-100 hover:-translate-y-5 transition-transform" style="box-shadow: 0 4px 14px rgba(244,63,94,0.1); animation: scaleIn 0.5s ease ${i * 0.1}s both;">
+                    <span class="text-3xl mb-2 block">${fact.emoji}</span>
+                    <p class="font-dancing text-3xl text-rose-500 font-bold mb-1">${fact.stat}</p>
+                    <p class="text-gray-500 text-sm">${fact.label}</p>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+        </div>
+      `
+    };
+
+    // Memory data for modal
+    const memoriesData = [
+      { id: 1, image: 'https://images.pexels.com/photos/14839193/pexels-photo-14839193.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200', title: 'Our First Sunset Together', description: 'That magical evening when we watched the sunset paint the sky in shades of gold and rose. Your hand in mine, the world felt perfect.', date: 'Forever in my heart', location: 'Wherever you are', emoji: '🌅' },
+      { id: 2, image: 'https://images.pexels.com/photos/6410240/pexels-photo-6410240.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200', title: 'The Kiss That Changed Everything', description: 'Time stopped, the world disappeared, and it was just us. That kiss sealed our love story forever.', date: 'A timeless moment', location: 'In our own universe', emoji: '💋' },
+      { id: 3, image: 'https://images.pexels.com/photos/27254929/pexels-photo-27254929.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200', title: 'Walking Hand in Hand', description: 'Every step with you is an adventure. Every path becomes beautiful when I walk it with you by my side.', date: 'Every single day', location: 'Down every road together', emoji: '🚶‍♂️🚶‍♀️' },
+      { id: 4, image: 'https://images.pexels.com/photos/9497059/pexels-photo-9497059.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200', title: 'Sunshine & Happiness', description: 'You are my sunshine on cloudy days. Walking together under the warm sun, laughing at everything and nothing.', date: 'Sun-kissed days', location: 'Under our favorite sky', emoji: '☀️' },
+      { id: 5, image: 'https://images.pexels.com/photos/10941877/pexels-photo-10941877.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200', title: 'Park Adventures', description: 'Those lazy afternoons at the park, sharing secrets, dreams, and ice cream. Simple moments that mean everything.', date: 'Lazy afternoons', location: 'Our favorite park', emoji: '🌳' },
+      { id: 6, image: 'https://images.pexels.com/photos/12130177/pexels-photo-12130177.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200', title: 'Romantic Dinner Nights', description: 'Candlelight, wine, your smile across the table — every dinner with you feels like the most special occasion.', date: 'Every special night', location: 'Our romantic spot', emoji: '🕯️' },
+    ];
+
+    // Render page
+    function renderPage(path) {
+      const content = document.getElementById('page-content');
+      if (pages[path]) {
+        content.innerHTML = `<div class="page">${pages[path]}</div>`;
+        attachPageEventListeners(path);
+      } else {
+        content.innerHTML = `<div class="page">${pages['/']}</div>`;
+        attachPageEventListeners('/');
+      }
+      updateNavigation(path);
+      window.scrollTo(0, 0);
+    }
+
+    // Attach event listeners for specific pages
+    function attachPageEventListeners(path) {
+      if (path === '/') {
+        document.addEventListener('mousemove', (e) => {
+          mousePos = { x: e.clientX, y: e.clientY };
+          const heroBg = document.getElementById('hero-bg');
+          if (heroBg) {
+            heroBg.style.background = `radial-gradient(600px circle at ${mousePos.x}px ${mousePos.y}px, rgba(244,63,94,0.08), transparent 40%)`;
+          }
+        });
+      }
+
+      if (path === '/love-letter') {
+        const envelope = document.getElementById('envelope');
+        const letterContent = document.getElementById('letter-content');
+        const closeLetter = document.getElementById('close-letter');
+
+        if (envelope) {
+          envelope.addEventListener('click', () => {
+            envelope.style.display = 'none';
+            letterContent.style.display = 'block';
+          });
+        }
+
+        if (closeLetter) {
+          closeLetter.addEventListener('click', () => {
+            letterContent.style.display = 'none';
+            envelope.style.display = 'block';
+          });
+        }
+      }
+
+      if (path === '/gift') {
+        const wrappedGift = document.getElementById('wrapped-gift');
+        const unwrappedGift = document.getElementById('unwrapped-gift');
+
+        if (wrappedGift) {
+          wrappedGift.addEventListener('click', () => {
+            wrappedGift.style.display = 'none';
+            unwrappedGift.style.display = 'block';
+            showConfetti();
+          });
+        }
+      }
+    }
+
+    // Show memory modal
+    function showMemoryModal(id) {
+      const memory = memoriesData.find(m => m.id === id);
+      if (!memory) return;
+
+      const modal = document.getElementById('memory-modal');
+      document.getElementById('modal-img').src = memory.image;
+      document.getElementById('modal-img').alt = memory.title;
+      document.getElementById('modal-emoji').textContent = memory.emoji;
+      document.getElementById('modal-title').textContent = memory.title;
+      document.getElementById('modal-desc').textContent = memory.description;
+      document.getElementById('modal-date').innerHTML = `<svg class="w-4 h-4 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg> ${memory.date}`;
+      document.getElementById('modal-location').innerHTML = `<svg class="w-4 h-4 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg> ${memory.location}`;
+
+      modal.style.display = 'flex';
+    }
+
+    // Close memory modal
+    function closeMemoryModal() {
+      document.getElementById('memory-modal').style.display = 'none';
+    }
+
+    // Toggle like
+    function toggleLike(btn, index) {
+      const svg = btn.querySelector('svg');
+      if (svg.style.fill === 'currentColor' || svg.getAttribute('fill') === 'currentColor') {
+        svg.style.fill = 'none';
+        svg.style.stroke = 'var(--rose-300)';
+      } else {
+        svg.style.fill = 'var(--rose-500)';
+        svg.style.stroke = 'var(--rose-500)';
+      }
+    }
+
+    // Toggle show all reasons
+    let showingAll = false;
+    function toggleShowAll() {
+      const moreReasons = document.getElementById('more-reasons');
+      const btn = document.getElementById('show-all-btn');
+      
+      if (showingAll) {
+        moreReasons.style.display = 'none';
+        btn.innerHTML = '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg> Show All 50 Reasons';
+      } else {
+        moreReasons.style.display = 'grid';
+        btn.innerHTML = '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg> Show Less';
+      }
+      showingAll = !showingAll;
+    }
+
+    // Toggle coupon
+    function toggleCoupon(el) {
+      const border = el.querySelector('.border-rose-200');
+      if (border.style.borderColor === 'var(--rose-400)') {
+        border.style.borderColor = 'var(--rose-200)';
+      } else {
+        border.style.borderColor = 'var(--rose-400)';
+      }
+    }
+
+    // Show confetti
+    function showConfetti() {
+      const container = document.getElementById('confetti-container');
+      container.style.display = 'block';
+      
+      const emojis = ['🎉', '✨', '💕', '🌟', '🎊', '💖', '⭐', '🎀', '💝', '🌸'];
+      
+      for (let i = 0; i < 50; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'absolute text-2xl';
+        confetti.textContent = emojis[i % 10];
+        confetti.style.left = Math.random() * window.innerWidth + 'px';
+        confetti.style.top = '-20px';
+        confetti.style.animation = `confettiFall ${Math.random() * 3 + 2}s ease-out forwards`;
+        confetti.style.animationDelay = Math.random() * 0.5 + 's';
+        container.appendChild(confetti);
+      }
+
+      setTimeout(() => {
+        container.innerHTML = '';
+        container.style.display = 'none';
+      }, 4000);
+    }
+
+    // Add confetti animation
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes confettiFall {
+        0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+        100% { transform: translateY(${window.innerHeight + 50}px) rotate(${Math.random() * 720}deg); opacity: 0; }
+      }
+    `;
+    document.head.appendChild(style);
+
+    // Update navigation
+    function updateNavigation(path) {
+      document.querySelectorAll('.nav-link, .mobile-nav-link').forEach(link => {
+        if (link.dataset.page === path) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+    }
+
+    // Initialize navigation scroll effect
+    function initNavScroll() {
+      const nav = document.getElementById('navigation');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 20) {
+          nav.style.background = 'rgba(255,255,255,0.9)';
+          nav.style.backdropFilter = 'blur(16px)';
+          nav.style.boxShadow = '0 4px 14px rgba(244,63,94,0.1)';
+        } else {
+          nav.style.background = 'transparent';
+          nav.style.backdropFilter = 'none';
+          nav.style.boxShadow = 'none';
+        }
+      });
+    }
+
+    // Mobile menu toggle
+    function initMobileMenu() {
+      const btn = document.getElementById('mobile-menu-btn');
+      const menu = document.getElementById('mobile-menu');
+      
+      btn.addEventListener('click', () => {
+        if (menu.style.display === 'none' || menu.style.display === '') {
+          menu.style.display = 'block';
+          menu.style.animation = 'fadeSlideIn 0.3s ease forwards';
+        } else {
+          menu.style.display = 'none';
+        }
+      });
+
+      // Close menu when clicking a link
+      document.querySelectorAll('.mobile-nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          menu.style.display = 'none';
+        });
+      });
+    }
+
+    // Initialize lock screen
+    function initLockScreen() {
+      updateClock();
+      setInterval(updateClock, 1000);
+
+      // Numpad buttons
+      document.querySelectorAll('.num-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          handlePinInput(btn.dataset.num);
+        });
+      });
+
+      // Delete button
+      document.getElementById('delete-btn').addEventListener('click', () => {
+        handlePinInput('delete');
+      });
+
+      // Keyboard support
+      document.addEventListener('keydown', (e) => {
+        if (e.key >= '0' && e.key <= '9') {
+          handlePinInput(e.key);
+        } else if (e.key === 'Backspace') {
+          handlePinInput('delete');
+        }
+      });
+    }
+
+    // Initialize app after unlock
+    function initApp() {
+      initFloatingHearts();
+      initNavScroll();
+      initMobileMenu();
+
+      // Handle hash routing
+      function handleRoute() {
+        const hash = window.location.hash || '#/';
+        const path = hash.replace('#', '') || '/';
+        currentPage = path;
+        renderPage(path);
+      }
+
+      window.addEventListener('hashchange', handleRoute);
+      handleRoute();
+    }
+
+    // Start
+    if (isUnlocked) {
+      initApp();
+    } else {
+      initLockScreen();
+    }
+  </script>
+</body>
 </html>
